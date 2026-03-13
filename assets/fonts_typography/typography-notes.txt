@@ -1,0 +1,151 @@
+# PUBLIC RECORD — TYPOGRAPHY NOTES
+
+## Headline Typeface
+
+BootzyTM
+
+Usage
+
+Section titles  
+Editorial headlines  
+Pull quotes  
+Navigation titles  
+Print titles  
+Hero statements
+
+Characteristics
+
+Bold  
+Graphic  
+High personality  
+Compressed editorial voice  
+Functions as the publication headline system
+
+Design role
+
+Bootzy is the visual voice of the publication.  
+It should be used sparingly and with intention.
+
+Large type  
+Strong hierarchy  
+Generous spacing around headlines
+
+Avoid using Bootzy for long text blocks.
+
+---
+
+## Body Typeface
+
+Newsreader
+
+Usage
+
+Essays  
+Captions  
+Product descriptions  
+Editorial text  
+Metadata  
+Camera notes  
+Artist statements
+
+Characteristics
+
+Highly readable  
+Editorial tone  
+Newspaper-inspired serif  
+Designed for long-form reading  
+Quiet supporting voice for the photographs
+
+Design role
+
+Newsreader supports the imagery and editorial layout without competing with the photography or headline typography.
+
+Body text should feel like reading a printed publication.
+
+---
+
+## Font Files Included
+
+Headline
+
+BootzyTM.ttf
+
+Body
+
+Newsreader Variable Font  
+Newsreader Italic Variable Font
+
+Additional Serif (Optional Backup)
+
+PT Serif Regular  
+PT Serif Italic  
+PT Serif Bold  
+PT Serif Bold Italic
+
+PT Serif may be used if a more traditional newspaper tone is needed or if browser rendering requires a fallback serif.
+
+---
+
+## Typographic Hierarchy
+
+Level 1  
+BootzyTM  
+Primary headline
+
+Level 2  
+BootzyTM  
+Section header
+
+Level 3  
+Newsreader  
+Body paragraph
+
+Level 4  
+Newsreader  
+Captions  
+Metadata  
+Camera notes  
+Location notes
+
+Level 5  
+Newsreader Italic  
+Pull captions  
+Editorial emphasis
+
+---
+
+## Layout Philosophy
+
+Typography should feel like a printed newspaper or magazine layout translated to the web.
+
+Key principles
+
+Large headlines  
+Strong negative space  
+Clear column rhythm  
+Editorial pacing  
+Photographs lead the layout
+
+Text should support the images, not compete with them.
+
+---
+
+## Visual References
+
+The typographic atmosphere should feel closer to
+
+Photo essays  
+Museum wall text  
+Independent newspapers  
+Artist publications  
+Archival publications  
+Editorial magazines
+
+Avoid
+
+Tech startup typography  
+Overly minimal SaaS design  
+Heavy UI styling  
+Trendy web typography
+
+The site should feel like an editorial publication that happens to live on the web.

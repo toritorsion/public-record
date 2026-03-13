@@ -1,0 +1,16 @@
+# Asset source folder — large, not needed in repo
+PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (not used, but just in case)
+node_modules/

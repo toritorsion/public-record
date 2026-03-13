@@ -1,0 +1,216 @@
+/* PUBLIC RECORD — TYPE SYSTEM
+   Headline: BootzyTM
+   Body: Newsreader
+   Backup serif: PT Serif
+*/
+
+@font-face {
+  font-family: "BootzyTM";
+  src: url("../fonts_typography/BootzyTM.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Newsreader";
+  src: url("../fonts_typography/Newsreader-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Newsreader";
+  src: url("../fonts_typography/Newsreader-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 300 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --font-headline: "BootzyTM", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --font-body: "Newsreader", "PT Serif", Georgia, serif;
+
+  --type-h1: clamp(42px, 7vw, 84px);
+  --type-h2: clamp(26px, 4vw, 44px);
+  --type-h3: clamp(20px, 2.4vw, 28px);
+  --type-body: clamp(17px, 1.45vw, 20px);
+  --type-small: 0.84rem;
+  --type-meta: 0.78rem;
+
+  --leading-headline: 0.92;
+  --leading-body: 1.48;
+  --leading-caption: 1.38;
+
+  --tracking-headline: 0.01em;
+  --tracking-meta: 0.04em;
+
+  --measure-copy: 70ch;
+  --measure-narrow: 52ch;
+}
+
+/* Global body copy */
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+li,
+blockquote,
+figcaption,
+dd {
+  max-width: var(--measure-copy);
+}
+
+/* Headline system */
+
+h1,
+h2,
+h3,
+.pr-kicker,
+.pr-masthead,
+.pr-section-title,
+.pr-nav-title,
+.pr-pullquote {
+  font-family: var(--font-headline);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-headline);
+  line-height: var(--leading-headline);
+  font-weight: 700;
+  margin: 0;
+}
+
+h1,
+.pr-masthead {
+  font-size: var(--type-h1);
+}
+
+h2,
+.pr-section-title {
+  font-size: var(--type-h2);
+}
+
+h3,
+.pr-nav-title,
+.pr-pullquote {
+  font-size: var(--type-h3);
+}
+
+/* Body hierarchy */
+
+.pr-body,
+.pr-essay,
+.pr-product-copy,
+.pr-editorial-copy {
+  font-family: var(--font-body);
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+  max-width: var(--measure-copy);
+}
+
+.pr-essay p + p,
+.pr-editorial-copy p + p,
+.pr-body p + p {
+  margin-top: 1rem;
+}
+
+/* Captions and metadata */
+
+.pr-caption,
+.pr-meta,
+.pr-dateline,
+.pr-camera-note,
+.pr-location-note,
+small {
+  font-family: var(--font-body);
+  font-size: var(--type-small);
+  line-height: var(--leading-caption);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-meta);
+}
+
+.pr-meta,
+.pr-dateline,
+.pr-camera-note,
+.pr-location-note {
+  opacity: 0.72;
+}
+
+.pr-caption em,
+.pr-meta em {
+  font-style: italic;
+}
+
+/* Intro and pull text */
+
+.pr-deck,
+.pr-intro {
+  font-family: var(--font-body);
+  font-size: clamp(19px, 1.7vw, 24px);
+  line-height: 1.4;
+  max-width: 42ch;
+}
+
+.pr-pullquote-block {
+  max-width: var(--measure-narrow);
+}
+
+.pr-pullquote-block p,
+.pr-pullquote {
+  max-width: 20ch;
+}
+
+.pr-emphasis,
+em {
+  font-style: italic;
+}
+
+/* Navigation */
+
+.pr-nav,
+.pr-nav a {
+  font-family: var(--font-headline);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+
+/* Utility */
+
+.pr-text-measure {
+  max-width: var(--measure-copy);
+}
+
+.pr-text-narrow {
+  max-width: var(--measure-narrow);
+}
+
+@media (max-width: 767px) {
+  :root {
+    --type-body: 17px;
+    --measure-copy: 38ch;
+    --measure-narrow: 30ch;
+  }
+
+  .pr-deck,
+  .pr-intro {
+    max-width: 28ch;
+  }
+
+  .pr-caption,
+  .pr-meta,
+  .pr-dateline,
+  .pr-camera-note,
+  .pr-location-note,
+  small {
+    font-size: 0.76rem;
+  }
+}

@@ -1,0 +1,11 @@
+Name,Description,Price,Currency
+FIRST DAY Print – 8.5×11,"Open edition fine art print from For Public Record: We Were There. Printed on Moab Juniper Baryta Rag, signed by the photographer, unframed, ships from Chicago.",100,USD
+FIRST DAY Print – 11×14,"Open edition fine art print from For Public Record: We Were There. Printed on Moab Juniper Baryta Rag, signed by the photographer, unframed, ships from Chicago.",190,USD
+FIRST DAY Print – 13×19,"Open edition fine art print from For Public Record: We Were There. Printed on Moab Juniper Baryta Rag, signed by the photographer, unframed, ships from Chicago.",260,USD
+FIRST DAY Print – 20×30,"Open edition fine art print from For Public Record: We Were There. Printed by Latitude Chicago on Moab Juniper Baryta Rag, signed by the photographer, unframed, ships from Chicago.",525,USD
+FIRST DAY Print – 24×36,"Collector edition fine art print, edition of 9. Printed by Latitude Chicago on Moab Juniper Baryta Rag, signed and numbered by the photographer, unframed, ships from Chicago.",2000,USD
+RESIDUAL Print – 8.5×11,"Open edition fine art print from For Public Record: We Were There. Printed on Moab Juniper Baryta Rag, signed by the photographer, unframed, ships from Chicago.",95,USD
+RESIDUAL Print – 11×14,"Open edition fine art print from For Public Record: We Were There. Printed on Moab Juniper Baryta Rag, signed by the photographer, unframed, ships from Chicago.",145,USD
+RESIDUAL Print – 13×19,"Open edition fine art print from For Public Record: We Were There. Printed on Moab Juniper Baryta Rag, signed by the photographer, unframed, ships from Chicago.",185,USD
+RESIDUAL Print – 20×30,"Open edition fine art print from For Public Record: We Were There. Printed by Latitude Chicago on Moab Juniper Baryta Rag, signed by the photographer, unframed, ships from Chicago.",450,USD
+RESIDUAL Print – 24×36,"Collector edition fine art print, edition of 9. Printed by Latitude Chicago on Moab Juniper Baryta Rag, signed and numbered by the photographer, unframed, ships from Chicago.",1800,USD
