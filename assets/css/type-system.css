@@ -1,8 +1,17 @@
 /* PUBLIC RECORD — TYPE SYSTEM
-   Headline: BootzyTM
-   Body: Newsreader
+   Main title: Madhoney
+   Supporting display: BootzyTM
+   Body/metadata: Newsreader
    Backup serif: PT Serif
 */
+
+@font-face {
+  font-family: "Madhoney";
+  src: url("../fonts_typography/madhoney.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
   font-family: "BootzyTM";
@@ -29,6 +38,7 @@
 }
 
 :root {
+  --font-title-main: "Madhoney", "BootzyTM", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   --font-headline: "BootzyTM", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   --font-body: "Newsreader", "PT Serif", Georgia, serif;
 

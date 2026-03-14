@@ -14,14 +14,52 @@
 <body>
 
   <!-- NAV -->
-  <nav class="pr-nav" aria-label="Main navigation">
-    <div class="pr-nav__inner">
-      <a href="../" class="pr-nav__pub">Public Record</a>
-      <ul class="pr-nav__links">
-        <li><a href="../first-day/">First Day</a></li>
-        <li><a href="../residual/">Residual</a></li>
-        <li><a href="../first-day-print/">Prints</a></li>
-      </ul>
+  <nav class="pr-nav site-utility-bar" aria-label="Site utility navigation">
+    <div class="site-utility-left">
+      <a href="/overview/" class="site-utility-logo" aria-label="Overview" title="Overview">
+        <span aria-hidden="true">◉</span>
+      </a>
+    </div>
+    <div class="site-utility-center pr-nav__links">
+      <a class="site-utility-link nav-meta" href="/overview/">OVERVIEW</a>
+      <div class="pr-nav__dropdown">
+        <button class="pr-nav__dropdown-trigger site-utility-link nav-meta" aria-expanded="false" aria-haspopup="true">PUBLIC RECORD: WE WERE THERE</button>
+        <div class="pr-nav__dropdown-menu" role="menu">
+          <div class="pr-nav__dropdown-section">
+            <span class="pr-nav__dropdown-section-label">We Were There</span>
+            <ul class="pr-nav__dropdown-items">
+              <li><a class="nav-meta" href="/residual/">Residual</a></li>
+              <li><a class="nav-meta" href="/first-day/">First Day</a></li>
+              <li><a class="nav-meta" href="/catalog/">Catalog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a class="site-utility-link nav-meta" href="/street/">STREET</a>
+      <a class="site-utility-link nav-meta" href="/culture/">CULTURE</a>
+      <a class="site-utility-link nav-meta" href="/lifestyle/">LIFESTYLE</a>
+      <a class="site-utility-link nav-meta" href="/portraits/">PORTRAITS</a>
+      <a class="site-utility-link nav-meta" href="/about/">ABOUT</a>
+    </div>
+    <div class="site-utility-right">
+      <a class="site-utility-icon-link nav-meta" href="https://instagram.com/toritorsion" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+        <svg class="site-utility-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="16" rx="1.5"></rect>
+          <line x1="7" y1="8" x2="17" y2="8"></line>
+          <line x1="7" y1="11" x2="17" y2="11"></line>
+          <line x1="7" y1="14" x2="13" y2="14"></line>
+          <line x1="7" y1="17" x2="13" y2="17"></line>
+          <rect x="14.5" y="13" width="3.5" height="4"></rect>
+        </svg>
+      </a>
+      <a class="site-utility-icon-link nav-meta" href="/catalog/" aria-label="Cart" title="Cart">
+        <svg class="site-utility-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="9" cy="20" r="1.2"></circle>
+          <circle cx="17" cy="20" r="1.2"></circle>
+          <path d="M3 4h2l2.2 10.2h9.8l2-7.2H6.2"></path>
+        </svg>
+      </a>
+      <button class="site-utility-mode-toggle nav-meta" id="mode-toggle" aria-label="Toggle lights mode" title="Toggle lights mode"><span aria-hidden="true">💡</span><span>LIGHTS ON -- LIGHTS OFF</span></button>
     </div>
   </nav>
 
@@ -30,66 +68,123 @@
     <!-- ====================================================
          SECTION 1: MASTHEAD
          ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-masthead pr-masthead--page pr-section">
-      <div class="pr-container">
-        <span class="pr-masthead__pub">Public Record</span>
-        <h1 class="pr-masthead__title">Residual</h1>
-        <span class="pr-masthead__sub">Logan Square, Chicago &mdash; November 11, 2024</span>
+    <header class="page-masthead">
+      <div class="page-masthead__inner">
+        <div class="page-masthead__top-rule"></div>
+
+        <div class="page-masthead__row">
+          <div class="page-masthead__box page-masthead__box--left">
+            <div class="page-masthead__box-text">TORI &ldquo;TORSION&rdquo; HOWARD ARCHIVE</div>
+          </div>
+
+          <div class="page-masthead__center">
+            <div class="page-masthead__center-title">PUBLIC RECORD</div>
+          </div>
+
+          <div class="page-masthead__box page-masthead__box--right">
+            <div class="page-masthead__box-text">WE WERE THERE</div>
+          </div>
+        </div>
+
+        <div class="page-masthead__thin-rule"></div>
+
+        <div class="page-masthead__edition-line">
+          <div class="page-masthead__edition-left">VOL. 01</div>
+          <div class="page-masthead__edition-center">LOGAN SQUARE, CHICAGO &mdash; NOVEMBER 11, 2024 &mdash; DOCUMENTARY FIELD RECORD</div>
+          <div class="page-masthead__edition-right">PUBLIC RECORD ARCHIVE</div>
+        </div>
+
+        <div class="page-masthead__double-rule"></div>
+
+        <div class="page-masthead__stack">
+          <h1 class="page-masthead__headline">RESIDUAL</h1>
+          <p class="page-masthead__secondary">PUBLIC RECORD</p>
+          <p class="page-masthead__dek">
+            A monument built to feel neutral and timeless now carries fresh spray paint: FIGHT FASCISM. Residual freezes the collision between official history and lived reality.
+          </p>
+        </div>
+
+        <div class="page-masthead__bottom-space"></div>
       </div>
-    </section>
+    </header>
 
     <!-- ====================================================
          SECTION 2: HERO PLATE
          ==================================================== -->
-    <section class="pr-section--flush">
-      <div class="pr-plate pr-inspect" data-inspect>
+    <section class="page-separator-image pr-section--flush">
+      <div class="pr-plate pr-plate--hero-banner">
         <img
-          src="../assets/images/heroes/residual-fight-fascism-logan-square.jpg"
-          alt="RESIDUAL — Fight Fascism graffiti on the Illinois Centennial Monument, Logan Square, Chicago, November 11, 2024."
+          src="../assets/images/residual/residual_context_RESIDUAL_B-SIDE-02-cropped-threshold.jpeg"
+          alt="Threshold crop from Residual context with monument centered, Logan Square, Chicago, 2024."
           loading="eager"
         >
       </div>
     </section>
 
-    <!-- ====================================================
-         SECTION 3: PRINT PLATE CAPTION
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section--sm">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <h3>Residual</h3>
-            <p class="t-caption u-mt-gap">Logan Square, Chicago &mdash; November 11, 2024</p>
+    <div class="pr-story">
+      <div class="pr-story__headline pr-story__headline--lead">
+        <h2 class="section-title-editorial">The Monument and the Message</h2>
+        <p class="pr-story__intro section-dek">A monument that was built to feel neutral and timeless now carries fresh spray paint: <strong>FIGHT FASCISM</strong>. Residual freezes that collision of official history and lived reality.</p>
+      </div>
+
+      <div class="pr-story__body">
+        <aside class="pr-story__aside">
+          <img
+            class="pr-story__aside-img"
+            src="../assets/images/residual/residual-wide-context.jpg"
+            alt="Wide context view of Logan Square and the Illinois Centennial Monument, Chicago 2024"
+            loading="lazy"
+          >
+          <div class="pr-story__aside-caption">Residual. Logan Square, Chicago. November 11, 2024. Graffiti reading FIGHT FASCISM appears on the base of the Illinois Centennial Monument during the reconstruction of the traffic circle.</div>
+          <div class="pr-story__note">Not a rally. Not a crowd. Just the monument, the message, and one person sharing the frame on an ordinary afternoon in the neighborhood.</div>
+        </aside>
+
+        <div class="pr-story__text">
+          <span class="t-label">Field Note</span>
+          <p>I was just walking through Logan Square when I saw it. A historic monument, and across the stone someone had sprayed FIGHT FASCISM in big letters. In front of it, a guy is chillin next to his bike, sippin a beer like it&rsquo;s any other day. No crowd, no protest signs, no cops, no speeches. Just three things in the frame: the monument, the words, the man.</p>
+          <p>Nothing about it was staged. I didn&rsquo;t ask him to move, didn&rsquo;t ask him to pose. I just clocked how everything lined up in that one moment: heavy stone meant to last forever, fresh paint that could be gone tomorrow, and a regular person sitting in the middle of that tension. I knew if I hesitated, I&rsquo;d miss it, so I made the frame and kept moving.</p>
+          <div class="pr-story__img-pair">
+            <img src="../assets/images/residual/residual_context_DAVID-BY-MONUMENT-WITH-FOOTBALL_01.jpg" alt="Person sitting by the monument with football, Logan Square Chicago 2024" loading="lazy">
+            <img src="../assets/images/residual/residual_context_DAVID-BY-MONUMENT-WITH-FOOTBALL_02.jpg" alt="Person sitting by the monument with football, Logan Square Chicago 2024" loading="lazy">
           </div>
-          <div>
-            <p style="font-size: clamp(14px, 1.1vw, 16px); color: var(--pr-muted);">Graffiti reading &ldquo;FIGHT FASCISM&rdquo; appears on the base of the Illinois Centennial Monument during the reconstruction of the Logan Square traffic circle.</p>
-            <div class="u-mt-gap">
-              <a href="../residual-print/" class="pr-btn">View Print Details</a>
+          <div class="pr-story__pull">The official history and the lived one, sitting in the same shot.</div>
+        </div>
+      </div>
+
+      <div class="pr-story__body pr-story__body--equal">
+        <aside class="pr-story__aside">
+          <div class="pr-story__aside-stack">
+            <img src="../assets/images/residual/residual_context_LOGAN-HANDSTYLES_FEELING-FUCKED-ABOUT-THE-ELECTION_WITH-GUY_06.jpg" alt="Logan Square wall writing with person nearby, Chicago 2024" loading="lazy">
+            <img src="../assets/images/residual/residual_context_ISRAEL-BOMBS-USA-PAYS_01.jpg" alt="Graffiti reading Israel Bombs USA Pays, Logan Square Chicago 2024" loading="lazy">
+          </div>
+          <div class="pr-story__aside-caption">The neighborhood was full of other marks, other tensions, other evidence of what people were carrying around in public space that fall.</div>
+        </aside>
+
+        <div class="pr-story__text">
+          <p>Later, when I sat with the photo, it hit me different. It wasn&rsquo;t just a strong street shot. I kept coming back to how much courage it took for someone to tag those words on that specific monument, and how the guy on the bike felt like the rest of us &mdash; trying to live a normal life inside all this political noise and pressure. That&rsquo;s when I realized this image deserved to live as a print, not just as a file buried on a hard drive.</p>
+          <p>When I look at this photograph now, I see three different kinds of power in one frame.</p>
+          <div class="pr-story__img-triptych">
+            <img src="../assets/images/residual/residual_context_ME_11.jpg" alt="Reflected self-portrait in residual context, Chicago 2024" loading="lazy">
+            <img src="../assets/images/residual/residual_context_RANDOM-PEOPLE_03.jpg" alt="Neighborhood passerby in Logan Square, Chicago 2024" loading="lazy">
+            <img src="../assets/images/residual/residual_context_LOGAN-WALL-TEXTURES_01.jpg" alt="Wall texture in Logan Square, Chicago 2024" loading="lazy">
+          </div>
+          <p>The monument is slow, institutional power. It&rsquo;s the kind of thing cities build to feel permanent and neutral, even though nothing about the systems behind it is actually neutral. The graffiti is raw and fast: someone took a risk to say what they felt directly on top of that symbol. And the man on the bike is everyday power &mdash; the kind of quiet resilience it takes to move through your day while this stuff is happening around you.</p>
+          <p>For me, the photo says resistance isn&rsquo;t always loud or organized. It can be anonymous. It can happen in the middle of a regular afternoon. It can be one person leaving a mark and another person just existing in the same space, absorbing it. I&rsquo;m not trying to tell anyone who to vote for or what side they have to be on. I&rsquo;m showing that someone, at some point, cared enough and was angry enough to write those words on a monument meant to outlive them.</p>
+          <p>Printing this on baryta turns it into more than a social media moment. A feed will bury it. Paper won&rsquo;t. To me, this print is proof that courage and frustration and hope still show up in physical space, not just in comments and reposts.</p>
+          <div class="pr-story__sign-mosaic">
+            <div class="pr-story__sign-panel pr-story__sign-panel--primary">
+              <img src="../assets/images/residual/residual_context_STREET-AND-LOGAN-THEATRE-SIGNS_01.jpg" alt="Kedzie and Logan Theatre street signs in Logan Square Chicago 2024" loading="lazy">
+            </div>
+            <div class="pr-story__sign-panel">
+              <img src="../assets/images/residual/residual_context_STREET-AND-LOGAN-THEATRE-SIGNS_02.jpg" alt="Out of service sign in Logan Square Chicago 2024" loading="lazy">
+            </div>
+            <div class="pr-story__sign-panel">
+              <img src="../assets/images/residual/residual_context_STREET-AND-LOGAN-THEATRE-SIGNS_03.jpg" alt="Bus stop sign in Logan Square Chicago 2024" loading="lazy">
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 4: FIELD NOTE
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <span class="t-label">Field Note</span>
-          </div>
-          <div class="pr-editorial">
-            <p>The monument in Logan Square has stood in the middle of the neighborhood for more than a hundred years. It was built to feel permanent &mdash; to sit above whatever happens around it. But in 2024, while the city was tearing up the traffic circle and rebuilding the streets, somebody put two words on the base in black spray paint: <strong>FIGHT FASCISM</strong>.</p>
-            <p>That&rsquo;s what the photograph holds. Not a rally. Not a crowd. Just the monument, the message, and one person sharing the frame on an ordinary afternoon in the neighborhood. The official history and the lived one, sitting in the same shot.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
 
     <!-- ====================================================
          SECTION 5: CONTEXT GALLERY (22 images, 3-col grid)
@@ -97,221 +192,76 @@
          ==================================================== -->
     <div class="pr-rule"></div>
     <section class="pr-section--sm">
-      <div class="pr-container--wide">
-        <div class="u-mb-gap">
-          <span class="t-label">Logan Square, Chicago &mdash; November 2024</span>
-        </div>
-      </div>
-      <div class="pr-grid" style="overflow: visible; max-height: none;">
-
-        <!-- 1 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_DAVID-BY-MONUMENT-WITH-FOOTBALL_01.jpg" alt="Logan Square monument with football, Chicago 2024" loading="lazy">
-        </div>
-        <!-- 2 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_DAVID-BY-MONUMENT-WITH-FOOTBALL_02.jpg" alt="Logan Square monument with football, Chicago 2024" loading="lazy">
-        </div>
-        <!-- 3 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_ISRAEL-BOMBS-USA-PAYS_01.jpg" alt="Israel Bombs USA Pays graffiti, Logan Square Chicago 2024" loading="lazy">
-        </div>
-        <!-- 4 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_ISRAEL-BOMBS-USA-PAYS_02.jpg" alt="Israel Bombs USA Pays graffiti, Logan Square Chicago 2024" loading="lazy">
-        </div>
-        <!-- 5 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_LOGAN-HANDSTYLES_FEELING-FUCKED-ABOUT-THE-ELECTION_WITH-GUY_06.jpg" alt="Logan Square handstyles — Feeling Fucked About The Election, with person, Chicago 2024" loading="lazy">
-        </div>
-        <!-- 6 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_LOGAN-HANDSTYLES_FEELING-FUCKED-ABOUT-THE-ELECTION_CLOSE_07.jpg" alt="Logan Square handstyles — Feeling Fucked About The Election, close, Chicago 2024" loading="lazy">
-        </div>
-        <!-- 7 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_LOGAN-HANDSTYLES_FEELING-FUCKED-ABOUT-THE-ELECTION_WIDE_08.jpg" alt="Logan Square handstyles — Feeling Fucked About The Election, wide, Chicago 2024" loading="lazy">
-        </div>
-        <!-- 8 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_LOGAN-HANDSTYLES_01.jpg" alt="Logan Square handstyles, Chicago 2024" loading="lazy">
-        </div>
-        <!-- 9 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_LOGAN-HANDSTYLES_02.jpg" alt="Logan Square handstyles, Chicago 2024" loading="lazy">
-        </div>
-        <!-- 10 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_LOGAN-WALL-TEXTURES_01.jpg" alt="Logan Square wall textures, Chicago 2024" loading="lazy">
-        </div>
-        <!-- 11 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_LOGAN-WALL-TEXTURES_02.jpg" alt="Logan Square wall textures, Chicago 2024" loading="lazy">
-        </div>
-        <!-- 12 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_BUSES_01.jpg" alt="CTA buses, Logan Square Chicago 2024" loading="lazy">
-        </div>
-        <!-- 13 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_BUSES_02.jpg" alt="CTA buses, Logan Square Chicago 2024" loading="lazy">
-        </div>
-        <!-- 14 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_BUSES_03.jpg" alt="CTA buses, Logan Square Chicago 2024" loading="lazy">
-        </div>
-        <!-- 15 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_RANDOM-PEOPLE_03.jpg" alt="Neighborhood people, Logan Square Chicago 2024" loading="lazy">
-        </div>
-        <!-- 16 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_RANDOM-PEOPLE_05.jpg" alt="Neighborhood people, Logan Square Chicago 2024" loading="lazy">
-        </div>
-        <!-- 17 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_RANDOM-PEOPLE_10.jpg" alt="Neighborhood people, Logan Square Chicago 2024" loading="lazy">
-        </div>
-        <!-- 18 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_STREET-AND-LOGAN-THEATRE-SIGNS_01.jpg" alt="Street and Logan Theatre signs, Chicago 2024" loading="lazy">
-        </div>
-        <!-- 19 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_STREET-AND-LOGAN-THEATRE-SIGNS_02.jpg" alt="Street and Logan Theatre signs, Chicago 2024" loading="lazy">
-        </div>
-        <!-- 20 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_STREET-AND-LOGAN-THEATRE-SIGNS_03.jpg" alt="Street and Logan Theatre signs, Chicago 2024" loading="lazy">
-        </div>
-        <!-- 21: spec calls for B-SIDE 01 — using B-SIDE 02 (only available version) -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_RESIDUAL_B-SIDE-02.jpg" alt="Residual B-side, Logan Square Chicago 2024" loading="lazy">
-        </div>
-        <!-- 22: spec calls for B-SIDE 02 — using B-SIDE 04 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/residual/residual_context_RESIDUAL_B-SIDE-04.jpg" alt="Residual B-side, Logan Square Chicago 2024" loading="lazy">
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 6: PLATE PAUSE — hero repeat
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section--flush">
-      <div class="pr-plate">
-        <img
-          src="../assets/images/heroes/residual-fight-fascism-logan-square.jpg"
-          alt="RESIDUAL — Fight Fascism, Logan Square, Chicago, 2024"
-          loading="lazy"
-        >
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 7: REFLECTION
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <span class="t-label">The Record</span>
+      <div class="pr-contact-sheet-wrap">
+        <h2 class="pr-contact-sheet-title">Around the Monument</h2>
+        <div class="pr-contact-sheet">
+          <div class="pr-contact-sheet__pair">
+            <img src="../assets/images/residual/residual_context_ISRAEL-BOMBS-USA-PAYS_01.jpg" alt="Israel Bombs USA Pays graffiti, Logan Square Chicago 2024" loading="lazy">
+            <img src="../assets/images/residual/residual_context_ISRAEL-BOMBS-USA-PAYS_02.jpg" alt="Israel Bombs USA Pays graffiti, Logan Square Chicago 2024" loading="lazy">
           </div>
-          <div class="pr-editorial">
-            <p>The construction project around the monument lasted months. Roads were torn up, fences went around the park, pedestrian paths shifted week to week. The monument sat in the middle of all of it &mdash; supposedly preserved, but surrounded by heavy equipment, temporary barriers, and a neighborhood rerouting itself around the work.</p>
-            <p>During that period the graffiti appeared. Not a banner, not a projected slogan, not a sticker. Spray paint. Directly on the stone. <strong>FIGHT FASCISM</strong>. Two words on a hundred-year-old monument in the middle of a neighborhood that&rsquo;s been changing for a decade.</p>
-            <p>That&rsquo;s the image. That&rsquo;s the record.</p>
+          <div class="pr-contact-sheet__pair">
+            <img src="../assets/images/residual/residual_context_LOGAN-HANDSTYLES_01.jpg" alt="Stop sign with graffiti, Logan Square Chicago 2024" loading="lazy">
+            <img src="../assets/images/residual/residual_context_LOGAN-HANDSTYLES_02.jpg" alt="Stop sign with graffiti, Logan Square Chicago 2024" loading="lazy">
           </div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/residual/residual_context_RANDOM-PEOPLE_05.jpg" alt="Neighborhood person in Logan Square Chicago 2024" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/residual/residual_context_LOGAN-WALL-TEXTURES_02.jpg" alt="Wall texture in Logan Square Chicago 2024" loading="lazy"></div>
+          <div class="pr-contact-sheet__triptych">
+            <img src="../assets/images/residual/residual_context_BUSES_01.jpg" alt="CTA buses in Logan Square Chicago 2024" loading="lazy">
+            <img src="../assets/images/residual/residual_context_BUSES_02.jpg" alt="CTA buses in Logan Square Chicago 2024" loading="lazy">
+            <img src="../assets/images/residual/residual_context_BUSES_03.jpg" alt="CTA bus interior reflection in Logan Square Chicago 2024" loading="lazy">
+          </div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/residual/residual_context_STREET-AND-LOGAN-THEATRE-SIGNS_02.jpg" alt="Out of service sign in Logan Square Chicago 2024" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/residual/residual_context_RANDOM-PEOPLE_10.jpg" alt="Neighborhood person in Logan Square Chicago 2024" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/residual/residual_context_RESIDUAL_B-SIDE-02.jpg" alt="Brighter full front monument context, Logan Square Chicago 2024" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/residual/residual_context_RANDOM-PEOPLE_17.jpg" alt="Neighborhood person in Logan Square Chicago 2024" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/residual/residual_context_ME_02.jpg" alt="Self-portrait context in Logan Square Chicago 2024" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/residual/residual_context_LOGAN-HANDSTYLES_05.jpg" alt="Handstyle wall context in Logan Square Chicago 2024" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/residual/residual_context_ME_07.jpg" alt="Self-portrait context in Logan Square Chicago 2024" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/residual/residual_context_LOGAN-HANDSTYLES_FEELING-FUCKED-ABOUT-THE-ELECTION_WIDE_08.jpg" alt="Wide handstyle poster frame in Logan Square, Chicago 2024" loading="lazy"></div>
         </div>
       </div>
     </section>
 
-    <!-- PRICE ANCHOR — post-reflection -->
-    <div class="pr-rule--light pr-rule"></div>
-    <section class="pr-section--sm">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div><!-- intentional blank --></div>
-          <div>
-            <p>Available as a fine art print from $100. Open and collector editions, printed in Chicago on Moab Juniper Baryta Rag.</p>
-            <div class="u-mt-gap">
-              <a href="../residual-print/" class="pr-btn">View editions &rarr;</a>
-            </div>
-          </div>
-        </div>
+    <div class="pr-story">
+      <div class="pr-story__headline">
+        <h2>The Echo</h2>
+        <p class="pr-story__intro">FIRST DAY is the shout. RESIDUAL is what&rsquo;s still sitting in the neighborhood years later. Different days. Different corners of the city. Same undercurrent.</p>
       </div>
-    </section>
 
-    <!-- ====================================================
-         SECTION 8: THE ECHO
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <h2>The Echo</h2>
+      <div class="pr-story__body pr-story__body--equal">
+        <aside class="pr-story__aside">
+          <div class="pr-story__aside-pair">
+            <img src="../assets/images/residual/residual_context_RESIDUAL_B-SIDE-04.jpg" alt="Residual alternate monument view, Logan Square Chicago 2024" loading="lazy">
+            <img src="../assets/images/residual/residual_context_LOGAN-HANDSTYLES_FEELING-FUCKED-ABOUT-THE-ELECTION_CLOSE_07.jpg" alt="Close detail of neighborhood handstyle writing in Logan Square Chicago 2024" loading="lazy">
           </div>
-          <div class="pr-editorial">
-            <p>FIRST DAY is the shout. RESIDUAL is what&rsquo;s still sitting in the neighborhood years later. One photograph holds a quarter million people. The other holds a single line of spray paint and one person in the frame.</p>
-            <p>Different days. Different corners of the city. Same undercurrent. That&rsquo;s why both of these are public record.</p>
-            <div class="u-mt-gap-lg">
-              <a href="../first-day/" class="pr-btn">View First Day</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+          <div class="pr-story__aside-caption">The surrounding neighborhood matters as much as the monument itself. The record lives in the context as much as the central frame, but the same image never needs to do that work twice.</div>
+        </aside>
 
-    <!-- ====================================================
-         SECTION 9: PRINT INFORMATION
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <h2>Print Information</h2>
-          </div>
-          <div>
-            <p>RESIDUAL is printed on Moab Juniper Baryta Rag &mdash; a fiber-based baryta paper with a warm white base and exceptional tonal depth for black and white printing. Signed by the artist. Certificate of authenticity included with every print. Available in open editions and a limited collector edition.</p>
-            <p class="u-mt-gap"><em>Prints start at $100. Open editions in 8.5&thinsp;&times;&thinsp;11, 11&thinsp;&times;&thinsp;14, and 13&thinsp;&times;&thinsp;19. Collector editions in 17&thinsp;&times;&thinsp;22 (limited to 15) and 24&thinsp;&times;&thinsp;36 (limited to 7), individually numbered. Printed in Chicago.</em></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 10: FINAL CTA
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <p class="pr-transition">&ldquo;If this frame feels like your memory of this era, bring it off-screen.&rdquo;</p>
-          </div>
-          <div>
+        <div class="pr-story__text">
+          <p>RESIDUAL is printed on Moab Juniper Baryta Rag &mdash; a fiber-based baryta paper with a warm white base and exceptional tonal depth for black and white printing. Signed by the artist. Certificate of authenticity included with every print. Available in open editions and a limited collector edition.</p>
+          <p><strong>FIRST DAY is the shout.</strong> Downtown Chicago turned into one moving body. A quarter million people in the street, wall to wall, saying out loud, &ldquo;we&rsquo;re not okay with this.&rdquo;</p>
+          <p><strong>RESIDUAL is the echo.</strong> Years later, the crowds are gone, but the tension is still there, sitting in the neighborhood with you. Different days. Different corners of the city. Same undercurrent: people refusing to be quiet about what&rsquo;s happening around them.</p>
+          <p><em>Prints start at $100. Open editions in 8.5&thinsp;&times;&thinsp;11, 11&thinsp;&times;&thinsp;14, and 13&thinsp;&times;&thinsp;19. Collector editions in 17&thinsp;&times;&thinsp;22 (limited to 15) and 24&thinsp;&times;&thinsp;36 (limited to 7), individually numbered. Printed in Chicago.</em></p>
+          <div class="pr-btn--group">
             <a href="../residual-print/" class="pr-btn">Collect Residual</a>
+            <a href="../first-day/" class="pr-btn">View First Day</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <div class="pr-rule"></div>
 
-    <!-- EMAIL CAPTURE -->
+  </main>
+
+  <div class="pr-site-lower">
     <section class="pr-section--sm">
       <div class="pr-container">
         <div class="pr-spread">
           <div>
-            <span class="t-label">Stay in the record</span>
+            <div class="pr-email-heading">Stay in the Record</div>
           </div>
           <div>
-            <p class="u-mb-gap">New prints and collector editions announced by email. No noise.</p>
-            <!-- Buttondown embed: replace YOUR-BUTTONDOWN-USERNAME below -->
+            <p class="u-mb-gap">New work, print releases, and what comes next — from Chicago, when it matters.</p>
             <form
               action="https://buttondown.com/toritorsion/embed"
               method="post"
@@ -326,35 +276,33 @@
         </div>
       </div>
     </section>
-    <div class="pr-rule"></div>
 
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="pr-footer">
-    <div class="pr-container">
-      <div class="pr-footer__inner">
-        <div>
-          <div class="pr-footer__pub">Public Record</div>
-          <div class="pr-footer__meta u-mt-gap">
-            <p>A documentary print publication</p>
-            <p>by Tori &ldquo;Torsion&rdquo; Howard</p>
-            <p>Chicago, Illinois</p>
+    <footer class="pr-footer">
+      <div class="pr-container">
+        <div class="pr-footer__inner">
+          <div>
+            <div class="pr-footer__pub">Public Record</div>
+            <div class="pr-footer__meta u-mt-gap">
+              <p>A documentary print publication</p>
+              <p>by Tori &ldquo;Torsion&rdquo; Howard</p>
+              <p>Chicago, Illinois</p>
+            </div>
+          </div>
+          <div class="pr-footer__meta" style="text-align: right;">
+            <p><a href="../first-day/">First Day</a></p>
+            <p><a href="../residual/">Residual</a></p>
+            <p><a href="../catalog/">Catalog</a></p>
+          </div>
+          <div class="pr-footer__meta" style="max-width: 260px;">
+            <p>All image rights remain with the artist. Physical prints only. Printed in Chicago on Moab Juniper Baryta Rag.</p>
           </div>
         </div>
-        <div class="pr-footer__meta" style="text-align: right;">
-          <p><a href="../first-day/">First Day</a></p>
-          <p><a href="../residual/">Residual</a></p>
-          <p><a href="../first-day-print/">Prints</a></p>
-        </div>
-        <div class="pr-footer__meta" style="max-width: 260px;">
-          <p>All image rights remain with the artist. Physical prints only. Printed in Chicago on Moab Juniper Baryta Rag.</p>
-        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <script src="../assets/js/inspect.js"></script>
   <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/mode.js"></script>
 </body>
 </html>

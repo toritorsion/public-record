@@ -11,48 +11,128 @@
   <link rel="stylesheet" href="../assets/css/type-system.css">
   <link rel="stylesheet" href="../assets/css/main.css">
 </head>
-<body>
+<body class="pr-print-page">
 
   <!-- NAV -->
-  <nav class="pr-nav" aria-label="Main navigation">
-    <div class="pr-nav__inner">
-      <a href="../" class="pr-nav__pub">Public Record</a>
-      <ul class="pr-nav__links">
-        <li><a href="../first-day/">First Day</a></li>
-        <li><a href="../residual/">Residual</a></li>
-        <li><a href="../first-day-print/">Prints</a></li>
-      </ul>
+  <nav class="pr-nav site-utility-bar" aria-label="Site utility navigation">
+    <div class="site-utility-left">
+      <a href="/overview/" class="site-utility-logo" aria-label="Overview" title="Overview">
+        <span aria-hidden="true">◉</span>
+      </a>
+    </div>
+    <div class="site-utility-center pr-nav__links">
+      <a class="site-utility-link nav-meta" href="/overview/">OVERVIEW</a>
+      <div class="pr-nav__dropdown">
+        <button class="pr-nav__dropdown-trigger site-utility-link nav-meta" aria-expanded="false" aria-haspopup="true">PUBLIC RECORD: WE WERE THERE</button>
+        <div class="pr-nav__dropdown-menu" role="menu">
+          <div class="pr-nav__dropdown-section">
+            <span class="pr-nav__dropdown-section-label">We Were There</span>
+            <ul class="pr-nav__dropdown-items">
+              <li><a class="nav-meta" href="/residual/">Residual</a></li>
+              <li><a class="nav-meta" href="/first-day/">First Day</a></li>
+              <li><a class="nav-meta" href="/catalog/">Catalog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a class="site-utility-link nav-meta" href="/street/">STREET</a>
+      <a class="site-utility-link nav-meta" href="/culture/">CULTURE</a>
+      <a class="site-utility-link nav-meta" href="/lifestyle/">LIFESTYLE</a>
+      <a class="site-utility-link nav-meta" href="/portraits/">PORTRAITS</a>
+      <a class="site-utility-link nav-meta" href="/about/">ABOUT</a>
+    </div>
+    <div class="site-utility-right">
+      <a class="site-utility-icon-link nav-meta" href="https://instagram.com/toritorsion" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+        <svg class="site-utility-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="16" rx="1.5"></rect>
+          <line x1="7" y1="8" x2="17" y2="8"></line>
+          <line x1="7" y1="11" x2="17" y2="11"></line>
+          <line x1="7" y1="14" x2="13" y2="14"></line>
+          <line x1="7" y1="17" x2="13" y2="17"></line>
+          <rect x="14.5" y="13" width="3.5" height="4"></rect>
+        </svg>
+      </a>
+      <a class="site-utility-icon-link nav-meta" href="/catalog/" aria-label="Cart" title="Cart">
+        <svg class="site-utility-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="9" cy="20" r="1.2"></circle>
+          <circle cx="17" cy="20" r="1.2"></circle>
+          <path d="M3 4h2l2.2 10.2h9.8l2-7.2H6.2"></path>
+        </svg>
+      </a>
+      <button class="site-utility-mode-toggle nav-meta" id="mode-toggle" aria-label="Toggle lights mode" title="Toggle lights mode"><span aria-hidden="true">💡</span><span>LIGHTS ON -- LIGHTS OFF</span></button>
     </div>
   </nav>
 
   <main>
 
     <!-- PAGE MASTHEAD -->
-    <div class="pr-rule"></div>
-    <section class="pr-masthead pr-masthead--page pr-section">
-      <div class="pr-container">
-        <span class="pr-masthead__pub">Public Record &mdash; Prints</span>
-        <h1 class="pr-masthead__title">Residual</h1>
-        <span class="pr-masthead__sub">Logan Square, Chicago &mdash; 2024 &mdash; Fine Art Print</span>
+    <header class="page-masthead">
+      <div class="page-masthead__inner">
+        <div class="page-masthead__top-rule"></div>
+
+        <div class="page-masthead__row">
+          <div class="page-masthead__box page-masthead__box--left">
+            <div class="page-masthead__box-text">TORI &ldquo;TORSION&rdquo; HOWARD ARCHIVE</div>
+          </div>
+
+          <div class="page-masthead__center">
+            <div class="page-masthead__center-title">RESIDUAL</div>
+          </div>
+
+          <div class="page-masthead__box page-masthead__box--right">
+            <div class="page-masthead__box-text">PRINT EDITIONS</div>
+          </div>
+        </div>
+
+        <div class="page-masthead__thin-rule"></div>
+
+        <div class="page-masthead__edition-line">
+          <div class="page-masthead__edition-left">VOL. 00</div>
+          <div class="page-masthead__edition-center">LOGAN SQUARE, CHICAGO &mdash; 2024 &mdash; FINE ART PRINT EDITION</div>
+          <div class="page-masthead__edition-right">PUBLIC RECORD ARCHIVE</div>
+        </div>
+
+        <div class="page-masthead__double-rule"></div>
+
+        <h1 class="page-masthead__headline">RESIDUAL</h1>
+
+        <p class="page-masthead__dek">
+          A black and white print from Logan Square documenting a monument, a message, and the tension held in one frame.
+        </p>
+
+        <div class="page-masthead__bottom-space"></div>
       </div>
-    </section>
+    </header>
 
     <!-- ====================================================
          PRODUCT LAYOUT
          ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-product">
+    <section class="page-separator-image pr-section">
+      <div class="pr-container--wide">
+        <div class="pr-product pr-product--editorial">
 
           <!-- LEFT: Image -->
           <div class="pr-product__image">
-            <div class="pr-inspect" data-inspect>
-              <img
-                src="../assets/images/heroes/residual-fight-fascism-logan-square.jpg"
-                alt="RESIDUAL — Fight Fascism on the Illinois Centennial Monument, Logan Square, Chicago, 2024. Fine art print by Tori Howard."
-                loading="eager"
-              >
+            <div class="pr-product__image-frame">
+              <div class="pr-print-meta-strip">
+                <span>Public Record Print Edition</span>
+                <span>Logan Square / 2024</span>
+              </div>
+              <div class="pr-inspect" data-inspect>
+                <img
+                  src="../assets/images/heroes/residual-fight-fascism-logan-square.jpg"
+                  alt="RESIDUAL — Fight Fascism on the Illinois Centennial Monument, Logan Square, Chicago, 2024. Fine art print by Tori Howard."
+                  loading="eager"
+                >
+              </div>
+              <div class="pr-print-rail">
+                <div class="pr-print-rail__item">
+                  <img src="../assets/images/products/residual-close-detail.jpg" alt="Close detail crop of the Residual print" loading="lazy">
+                </div>
+                <div class="pr-print-rail__item">
+                  <img src="../assets/images/residual/residual-wide-context.jpg" alt="Wide context view of the Residual scene in Logan Square" loading="lazy">
+                </div>
+              </div>
             </div>
             <p class="t-caption u-mt-gap">RESIDUAL &mdash; Logan Square, Chicago &mdash; November 11, 2024</p>
             <p class="t-caption">Illinois Centennial Monument during Logan Square traffic circle reconstruction.</p>
@@ -60,13 +140,15 @@
 
           <!-- RIGHT: Details + Sizes -->
           <div>
-            <h2>Residual, Chicago, 2024</h2>
+            <p class="pr-print-kicker">Public text, institutional stone, ordinary afternoon</p>
+            <h2 class="pr-print-title">Residual</h2>
             <p class="t-caption u-mt-gap">Logan Square &mdash; Illinois Centennial Monument</p>
 
-            <p class="u-mt-gap-lg">A black and white photograph of a Chicago monument marked with the words FIGHT FASCISM, with a man sitting beside his bicycle in the same frame. Printed on Moab Juniper Baryta Rag, signed, and available in open and collector editions.</p>
+            <p class="pr-print-dek">A black and white photograph of a Chicago monument marked with the words FIGHT FASCISM, with a man sitting beside his bicycle in the same frame. Printed on Moab Juniper Baryta Rag, signed, and available in open and collector editions.</p>
+            <div class="pr-print-quote">A quiet neighborhood frame carrying the pressure of a much louder time.</div>
 
             <!-- SIZE + PRICE TABLE -->
-            <div class="u-mt-gap-lg">
+            <div class="pr-size-table-wrap">
               <div class="pr-rule--light pr-rule"></div>
               <table class="pr-size-table">
                 <thead>
@@ -142,6 +224,17 @@
             <!-- Trust -->
             <p class="u-mt-gap t-caption">Each print is inspected, signed, and shipped directly by Tori Howard from Chicago.</p>
 
+            <div class="pr-print-card-grid">
+              <div class="pr-print-card">
+                <span class="t-label">Surface + Tone</span>
+                <p>Baryta holds the monument, graffiti, and human figure in one tonal field without flattening the emotional tension.</p>
+              </div>
+              <div class="pr-print-card">
+                <span class="t-label">Curatorial Read</span>
+                <p>The image works as both street document and political residue, so the page needed the feel of a publication spread rather than a product shelf.</p>
+              </div>
+            </div>
+
             <!-- Print specs -->
             <div class="pr-print-specs">
               <span class="t-label">About this print</span>
@@ -169,14 +262,26 @@
          ==================================================== -->
     <div class="pr-rule"></div>
     <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
+      <div class="pr-container--wide">
+        <div class="pr-spread pr-spread--60-40">
+          <div class="pr-editorial-poster">
+            <div class="pr-editorial-poster__issue">
+              <span>Issue Two</span>
+              <span>Public Record / Residual</span>
+            </div>
             <h2>About<br>This Print</h2>
+            <div class="pr-editorial">
+              <p>RESIDUAL was photographed in Logan Square in 2024. I came across a monument marked with the words FIGHT FASCISM sprayed across the stone, and at the base a man sat beside his bike like it was any other afternoon in the city.</p>
+              <p>Nothing about the scene was staged. What held me was the mix of power inside one frame: the monument&rsquo;s institutional weight, the risk of the graffiti, and the everyday calm of a person simply existing beside it. That tension is what made the photograph stay with me, and what made it deserve a life off-screen.</p>
+            </div>
+            <div class="pr-editorial-poster__quote">The monument, the mark, and the witness all holding the same ground.</div>
           </div>
-          <div class="pr-editorial">
-            <p>RESIDUAL was photographed in Logan Square in 2024. I came across a monument marked with the words FIGHT FASCISM sprayed across the stone, and at the base a man sat beside his bike like it was any other afternoon in the city.</p>
-            <p>Nothing about the scene was staged. What held me was the mix of power inside one frame: the monument&rsquo;s institutional weight, the risk of the graffiti, and the everyday calm of a person simply existing beside it. That tension is what made the photograph stay with me, and what made it deserve a life off-screen.</p>
+          <div class="pr-editorial-panel">
+            <img src="../assets/images/residual/residual_context_RESIDUAL_B-SIDE-02.jpg" alt="Alternate Residual monument frame from Logan Square" loading="lazy">
+            <div class="pr-editorial-panel__meta">
+              <p><span class="t-label">Site</span><br>Illinois Centennial Monument during the Logan Square traffic circle rebuild.</p>
+              <p><span class="t-label">Tension</span><br>Official civic permanence interrupted by a message meant to be seen right now.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -216,7 +321,7 @@
         <div class="pr-footer__meta" style="text-align: right;">
           <p><a href="../first-day/">First Day</a></p>
           <p><a href="../residual/">Residual</a></p>
-          <p><a href="../first-day-print/">Prints</a></p>
+          <p><a href="../catalog/">Catalog</a></p>
         </div>
         <div class="pr-footer__meta" style="max-width: 260px;">
           <p>Checkout is handled securely through Stripe. All image rights remain with the artist. Physical prints only.</p>
@@ -227,5 +332,6 @@
 
   <script src="../assets/js/inspect.js"></script>
   <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/mode.js"></script>
 </body>
 </html>

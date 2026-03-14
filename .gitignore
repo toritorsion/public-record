@@ -1,6 +1,9 @@
 # Asset source folder — large, not needed in repo
 PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/
 
+# Private branding — keep off public repo
+TORI TORSION LOGOS/
+
 # macOS
 .DS_Store
 .AppleDouble

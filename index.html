@@ -11,273 +11,220 @@
   <link rel="stylesheet" href="assets/css/type-system.css">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body>
+<body class="page-public-record">
 
-  <!-- ====================================================
-       NAVIGATION
-       ==================================================== -->
-  <nav class="pr-nav" aria-label="Main navigation">
-    <div class="pr-nav__inner">
-      <a href="/" class="pr-nav__pub">Public Record</a>
-      <ul class="pr-nav__links">
-        <li><a href="/first-day/">First Day</a></li>
-        <li><a href="/residual/">Residual</a></li>
-        <li><a href="/first-day-print/">Prints</a></li>
-      </ul>
+  <nav class="pr-nav site-utility-bar" aria-label="Site utility navigation">
+    <div class="site-utility-left">
+      <a href="/overview/" class="site-utility-logo" aria-label="Overview" title="Overview">
+        <span aria-hidden="true">◉</span>
+      </a>
+    </div>
+    <div class="site-utility-center pr-nav__links">
+      <a class="site-utility-link nav-meta" href="/overview/">OVERVIEW</a>
+      <div class="pr-nav__dropdown">
+        <button class="pr-nav__dropdown-trigger site-utility-link nav-meta" aria-expanded="false" aria-haspopup="true">PUBLIC RECORD: WE WERE THERE</button>
+        <div class="pr-nav__dropdown-menu" role="menu">
+          <div class="pr-nav__dropdown-section">
+            <span class="pr-nav__dropdown-section-label">We Were There</span>
+            <ul class="pr-nav__dropdown-items">
+              <li><a class="nav-meta" href="/residual/">Residual</a></li>
+              <li><a class="nav-meta" href="/first-day/">First Day</a></li>
+              <li><a class="nav-meta" href="/catalog/">Catalog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a class="site-utility-link nav-meta" href="/street/">STREET</a>
+      <a class="site-utility-link nav-meta" href="/culture/">CULTURE</a>
+      <a class="site-utility-link nav-meta" href="/lifestyle/">LIFESTYLE</a>
+      <a class="site-utility-link nav-meta" href="/portraits/">PORTRAITS</a>
+      <a class="site-utility-link nav-meta" href="/about/">ABOUT</a>
+    </div>
+    <div class="site-utility-right">
+      <a class="site-utility-icon-link nav-meta" href="https://instagram.com/toritorsion" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+        <svg class="site-utility-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="16" rx="1.5"></rect>
+          <line x1="7" y1="8" x2="17" y2="8"></line>
+          <line x1="7" y1="11" x2="17" y2="11"></line>
+          <line x1="7" y1="14" x2="13" y2="14"></line>
+          <line x1="7" y1="17" x2="13" y2="17"></line>
+          <rect x="14.5" y="13" width="3.5" height="4"></rect>
+        </svg>
+      </a>
+      <a class="site-utility-icon-link nav-meta" href="/catalog/" aria-label="Cart" title="Cart">
+        <svg class="site-utility-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="9" cy="20" r="1.2"></circle>
+          <circle cx="17" cy="20" r="1.2"></circle>
+          <path d="M3 4h2l2.2 10.2h9.8l2-7.2H6.2"></path>
+        </svg>
+      </a>
+      <button class="site-utility-mode-toggle nav-meta" id="mode-toggle" aria-label="Toggle lights mode" title="Toggle lights mode"><span aria-hidden="true">💡</span><span>LIGHTS ON -- LIGHTS OFF</span></button>
     </div>
   </nav>
 
   <main>
+    <header class="page-masthead">
+      <div class="page-masthead__inner">
+        <div class="page-masthead__top-rule"></div>
 
-    <!-- ====================================================
-         SECTION 1: MASTHEAD
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-masthead pr-section">
-      <div class="pr-container">
-        <span class="pr-masthead__pub">Public Record</span>
-        <h1 class="pr-masthead__title">We Were There</h1>
-        <span class="pr-masthead__sub">A documentary print publication by Tori Torsion Howard</span>
+        <div class="page-masthead__row">
+          <div class="page-masthead__box page-masthead__box--left">
+            <div class="page-masthead__box-text">TORI &ldquo;TORSION&rdquo; HOWARD ARCHIVE</div>
+          </div>
+          <div class="page-masthead__center">
+            <div class="page-masthead__center-title">PUBLIC RECORD</div>
+          </div>
+          <div class="page-masthead__box page-masthead__box--right">
+            <div class="page-masthead__box-text">WE WERE THERE</div>
+          </div>
+        </div>
+
+        <div class="page-masthead__thin-rule"></div>
+
+        <div class="page-masthead__edition-line">
+          <div class="page-masthead__edition-left">VOL. 01</div>
+          <div class="page-masthead__edition-center">CHICAGO, ILLINOIS &mdash; 2017 &amp; 2024 &mdash; DOCUMENTARY PRINT PUBLICATION</div>
+          <div class="page-masthead__edition-right">FINE ART EDITIONS</div>
+        </div>
+
+        <div class="page-masthead__double-rule"></div>
+
+        <div class="page-masthead__stack">
+          <h1 class="page-masthead__headline">PUBLIC RECORD</h1>
+          <p class="page-masthead__secondary page-masthead__secondary--madhoney">WE WERE THERE</p>
+          <p class="page-masthead__dek">
+            Chicago, Illinois &mdash; a documentary print publication by Tori &ldquo;Torsion&rdquo; Howard &mdash; two photographs &mdash; 2017 &amp; 2024 &mdash; fine art prints from $100.
+          </p>
+        </div>
+
+        <div class="page-masthead__bottom-space"></div>
       </div>
-    </section>
-    <div class="pr-rule"></div>
+    </header>
 
-    <!-- ====================================================
-         SECTION 2 + 3: HERO PAIR + CAPTIONS
-         ==================================================== -->
-    <section class="pr-section--flush">
-      <div class="pr-pair">
-        <div class="pr-pair__item pr-inspect" data-inspect>
+    <section class="page-separator-image pr-section--flush">
+      <div class="pr-pair pr-pair--single">
+        <div class="pr-pair__item">
           <img
-            src="assets/images/heroes/womens-march-chicago-first-day.jpg"
-            alt="FIRST DAY — Women's March, Chicago, January 21, 2017. A quarter million people fill Jackson Boulevard as seen from the CTA Green Line."
+            src="assets/images/products/both-prints-product-02-designed.jpg"
+            alt="Public Record — Residual (left) and First Day (right) — Fine art prints on Moab Juniper Baryta Rag, printed in Chicago."
             loading="eager"
           >
         </div>
-        <div class="pr-pair__item pr-inspect" data-inspect>
-          <img
-            src="assets/images/heroes/residual-fight-fascism-logan-square.jpg"
-            alt="RESIDUAL — Fight Fascism graffiti on the Illinois Centennial Monument, Logan Square, Chicago, 2024."
-            loading="eager"
-          >
-        </div>
       </div>
-
-      <!-- Pair captions -->
       <div class="pr-pair__caption">
         <div class="pr-pair__caption-item">
-          <span class="t-caption">First Day &mdash; Chicago, 2017</span>
+          <span class="t-caption">Residual &mdash; Logan Square, Chicago, November 11, 2024</span>
         </div>
         <div class="pr-pair__caption-item">
-          <span class="t-caption">Residual &mdash; Chicago, 2024</span>
+          <span class="t-caption">First Day &mdash; Chicago, January 21, 2017</span>
         </div>
       </div>
     </section>
 
-    <!-- ====================================================
-         SECTION 4: WHY THIS RECORD EXISTS
-         ==================================================== -->
-    <div class="pr-rule u-mt-pad"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread pr-spread--40-60">
-          <div>
-            <h2>Why This Record Exists</h2>
-          </div>
-          <div class="pr-editorial">
-            <p>Some photographs become public record the moment they're made.</p>
-            <p>FIRST DAY holds a quarter million people filling downtown Chicago for the Women's March on January 21, 2017 — the day after the inauguration. I made the frame from between two CTA train cars on the Green Line, one pass over the crowd at 1/2500 of a second.</p>
-            <p>RESIDUAL holds a single line of spray paint on a hundred-year-old monument in Logan Square — FIGHT FASCISM — with one person and a bicycle sharing the frame on an ordinary afternoon in 2024.</p>
-            <p>Different days. Different corners of the city. Same undercurrent.</p>
-            <p>Both images are proof that we were physically there. That the moment happened. That history gets made in public space, not just in headlines.</p>
-            <p>PUBLIC RECORD is where these photographs live as fine art prints — archival baryta paper, signed editions, printed in Chicago.</p>
-          </div>
-        </div>
-      </div>
-    </section>
     <div class="pr-rule"></div>
 
-    <!-- ====================================================
-         SECTION 5: FIRST DAY PREVIEW (full-width plate)
-         ==================================================== -->
-    <section class="pr-section--flush">
-      <div class="pr-plate pr-inspect" data-inspect>
-        <img
-          src="assets/images/heroes/womens-march-chicago-first-day.jpg"
-          alt="FIRST DAY — Women's March, Chicago, January 21, 2017"
-          loading="lazy"
-        >
+    <div class="pr-nf-bar">
+      <div class="pr-nf-bar__col">
+        <span class="pr-nf-bar__label">The Publication</span>
+        <p class="pr-nf-bar__body">PUBLIC RECORD documents the moments that become history before we recognize them. Two photographs from Chicago &mdash; FIRST DAY (Women&rsquo;s March, January 21, 2017) and RESIDUAL (Logan Square, November 11, 2024) &mdash; made years apart in different corners of the city.</p>
       </div>
-    </section>
+      <div class="pr-nf-bar__col pr-nf-bar__col--pull">
+        <span class="pr-nf-bar__label">Why This Record Exists</span>
+        <p class="pr-nf-bar__pull">&ldquo;Both images are proof that we were physically there. That the moment happened. That history gets made in public space, not just in headlines.&rdquo;</p>
+      </div>
+      <div class="pr-nf-bar__col">
+        <span class="pr-nf-bar__label">Fine Art Prints</span>
+        <p class="pr-nf-bar__body">Moab Juniper Baryta Rag &mdash; signed by the artist, printed in Chicago. Open editions from $100. Collector editions in limited runs, each individually numbered.</p>
+      </div>
+    </div>
 
-    <!-- ====================================================
-         SECTION 6: FIRST DAY GATEWAY
-         ==================================================== -->
     <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <h2>First Day</h2>
-            <p class="t-caption u-mt-gap">Chicago, January 21, 2017</p>
+
+    <div class="pr-nf-screamer">
+      <div class="pr-nf-screamer__text">Some photographs become<br>public record the moment<br>they&rsquo;re made.</div>
+      <p class="pr-nf-screamer__dek">Different days. Different corners of Chicago. Same undercurrent.</p>
+    </div>
+
+    <div class="pr-rule"></div>
+
+    <section class="pr-section--grain">
+      <div class="pr-nf-editorial">
+        <div class="pr-nf-ed-col">
+          <span class="pr-nf-col__kicker">First Day &mdash; Chicago, January 21, 2017</span>
+          <h2>First Day</h2>
+          <div class="pr-nf-col__body">
+            <p>A quarter million people gathered in downtown Chicago for the Women&rsquo;s March the day after the inauguration. One pass over the crowd at 1/2500 of a second.</p>
+            <p>From street level, the march felt loud and chaotic. From above, it became one moving body.</p>
           </div>
-          <div>
-            <p class="pr-editorial u-mb-gap-lg">A quarter million people. One frame from a moving train.</p>
-            <a href="first-day/" class="pr-btn">Enter First Day</a>
+          <p class="pr-nf-ed-preface">These are opening notes. Enter to read the full record.</p>
+          <a href="first-day/" class="pr-btn">Continue Reading First Day &rarr;</a>
+          <div class="pr-nf-ed-image">
+            <img src="assets/images/heroes/womens-march-chicago-first-day.jpg" alt="First Day preview image" loading="lazy">
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- ====================================================
-         SECTION 7: TRANSITION
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container u-text-center">
-        <p class="pr-transition" style="margin-inline: auto;">&ldquo;And then there&rsquo;s what gets left behind when the crowd goes home.&rdquo;</p>
-      </div>
-    </section>
-    <div class="pr-rule"></div>
-
-    <!-- ====================================================
-         SECTION 8: RESIDUAL PREVIEW (full-width plate)
-         ==================================================== -->
-    <section class="pr-section--flush">
-      <div class="pr-plate pr-inspect" data-inspect>
-        <img
-          src="assets/images/heroes/residual-fight-fascism-logan-square.jpg"
-          alt="RESIDUAL — Fight Fascism, Logan Square, Chicago, 2024"
-          loading="lazy"
-        >
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 9: THE ECHO
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <h2>The Echo</h2>
-            <p class="t-caption u-mt-gap">Residual &mdash; Logan Square, 2024</p>
+        <div class="pr-nf-ed-col">
+          <span class="pr-nf-col__kicker">Residual &mdash; Logan Square, November 11, 2024</span>
+          <h2>Residual</h2>
+          <div class="pr-nf-col__body">
+            <p>A monument in Logan Square marked with fresh spray paint: <strong>FIGHT FASCISM</strong>. One person and a bicycle sharing the same frame.</p>
+            <p>Different day, different energy, same political undercurrent written directly into the street.</p>
           </div>
-          <div class="pr-editorial">
-            <p>FIRST DAY and RESIDUAL feel like two volumes of the same story.</p>
-            <p>One image holds thousands of voices at once. The other holds a single line of text and one person in frame. Different days. Different corners of the city. Same undercurrent: people refusing to be quiet about what&rsquo;s happening around them.</p>
-            <p>That&rsquo;s why I treat both of these as public record, not nostalgia.</p>
-            <p>If one or both of these frames feel like your memory of this era, I&rsquo;d love for you to live with them off-screen. Pick your print, pick your size, and let your wall hold some of this history with you.</p>
-            <div class="u-mt-gap-lg">
-              <a href="residual/" class="pr-btn">Enter Residual</a>
-            </div>
+          <p class="pr-nf-ed-preface">These are opening notes. Enter to read the full record.</p>
+          <a href="residual/" class="pr-btn">Continue Reading Residual &rarr;</a>
+          <div class="pr-nf-ed-image">
+            <img src="assets/images/heroes/residual-fight-fascism-logan-square.jpg" alt="Residual preview image" loading="lazy">
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ====================================================
-         SECTION 10: PRINT INFORMATION
-         ==================================================== -->
     <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread pr-spread--40-60">
-          <div>
-            <h2>Print Information</h2>
-          </div>
-          <div>
-            <p>Every print is made in Chicago. Moab Juniper Baryta Rag — a cotton rag baryta paper with a warm white base and exceptional tonal depth. Signed by the artist. Certificate of authenticity included. Prints start at $100. Open editions in 8.5&thinsp;&times;&thinsp;11, 11&thinsp;&times;&thinsp;14, and 13&thinsp;&times;&thinsp;19. Collector editions in 17&thinsp;&times;&thinsp;22 (limited to 15) and 24&thinsp;&times;&thinsp;36 (limited to 7), individually numbered.</p>
-            <p class="u-mt-gap"><em>Prints up to 13&thinsp;&times;&thinsp;19 are printed by the artist. Larger editions are printed at Latitude Chicago and signed upon delivery.</em></p>
-            <div class="u-mt-gap-lg">
-              <a href="first-day-print/" class="pr-btn">View Prints</a>
-            </div>
+
+    <div class="pr-nf-strip">
+      <div class="pr-nf-strip__kicker">Fine Art Prints</div>
+      <div class="pr-nf-strip__content">
+        <div class="pr-nf-strip__headline">Collect<br>the Record</div>
+        <div>
+          <p class="t-caption u-mb-gap">Moab Juniper Baryta Rag &mdash; signed by the artist &mdash; printed in Chicago.</p>
+          <div class="pr-btn--group">
+            <a href="first-day-print/" class="pr-btn">Collect First Day</a>
+            <a href="residual-print/" class="pr-btn">Collect Residual</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </main>
 
-    <!-- ====================================================
-         SECTION 11: FINAL CTA — LIVE WITH THE IMAGE
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section--lg">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <h2>Live With<br>the Image</h2>
-          </div>
-          <div>
-            <div class="pr-editorial">
-              <p>FIRST DAY and RESIDUAL feel like two volumes of the same story. The first is collective noise — thousands of people filling a city street together. The second is the quiet echo that remains years later. Both photographs are part of the same record. Proof that we were physically there. Proof that the moment happened. Proof that history is made in public space, not just in headlines.</p>
-              <p>If one of these belongs in your home, studio, office, collection, or gallery — bring it off-screen. Some photographs remember longer than we do.</p>
-            </div>
-            <div class="pr-btn--group u-mt-gap-lg">
-              <a href="first-day-print/" class="pr-btn">Collect First Day</a>
-              <a href="residual-print/" class="pr-btn">Collect Residual</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="pr-rule"></div>
-
-    <!-- EMAIL CAPTURE -->
+  <div class="pr-site-lower">
     <section class="pr-section--sm">
       <div class="pr-container">
         <div class="pr-spread">
           <div>
-            <span class="t-label">Stay in the record</span>
+            <div class="pr-email-heading">Stay in the Record</div>
           </div>
           <div>
-            <p class="u-mb-gap">New prints and collector editions announced by email. No noise.</p>
-            <!-- Buttondown embed: replace YOUR-BUTTONDOWN-USERNAME below -->
-            <form
-              action="https://buttondown.com/toritorsion/embed"
-              method="post"
-              target="popupwindow"
-              onsubmit="window.open('https://buttondown.com/toritorsion', 'popupwindow')"
-              class="pr-email-form"
-            >
-              <input type="email" name="email" id="bd-email-home" placeholder="your@email.com" required class="pr-email-form__input">
-              <button type="submit" class="pr-btn">Subscribe</button>
+            <p class="u-mb-gap">New work, print releases, and what comes next &mdash; from Chicago, when it matters.</p>
+            <form action="https://buttondown.com/toritorsion/embed" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/toritorsion', 'popupwindow')" class="pr-email-form" aria-label="Subscribe form">
+              <input type="email" name="email" id="bd-email" class="pr-email-form__input" placeholder="your@email.com" required>
+              <input type="hidden" value="1" name="embed">
+              <button class="pr-btn" type="submit">Subscribe</button>
             </form>
           </div>
         </div>
       </div>
     </section>
-    <div class="pr-rule"></div>
 
-  </main>
-
-  <!-- ====================================================
-       FOOTER
-       ==================================================== -->
-  <footer class="pr-footer">
-    <div class="pr-container">
-      <div class="pr-footer__inner">
-        <div>
-          <div class="pr-footer__pub">Public Record</div>
-          <div class="pr-footer__meta u-mt-gap">
-            <p>A documentary print publication</p>
-            <p>by Tori &ldquo;Torsion&rdquo; Howard</p>
-            <p>Chicago, Illinois</p>
-          </div>
-        </div>
-        <div class="pr-footer__meta" style="text-align: right;">
-          <p><a href="first-day/">First Day</a></p>
-          <p><a href="residual/">Residual</a></p>
-          <p><a href="first-day-print/">Prints</a></p>
-        </div>
-        <div class="pr-footer__meta" style="max-width: 260px;">
-          <p>All image rights remain with the artist. Physical prints only. Printed in Chicago on Moab Juniper Baryta Rag.</p>
+    <footer class="pr-footer">
+      <div class="pr-container">
+        <div class="pr-footer__inner">
+          <div><div class="pr-footer__pub">Public Record</div></div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
-  <script src="assets/js/inspect.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/mode.js"></script>
 </body>
 </html>

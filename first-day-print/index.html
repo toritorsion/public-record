@@ -11,48 +11,130 @@
   <link rel="stylesheet" href="../assets/css/type-system.css">
   <link rel="stylesheet" href="../assets/css/main.css">
 </head>
-<body>
+<body class="pr-print-page">
 
   <!-- NAV -->
-  <nav class="pr-nav" aria-label="Main navigation">
-    <div class="pr-nav__inner">
-      <a href="../" class="pr-nav__pub">Public Record</a>
-      <ul class="pr-nav__links">
-        <li><a href="../first-day/">First Day</a></li>
-        <li><a href="../residual/">Residual</a></li>
-        <li><a href="../first-day-print/">Prints</a></li>
-      </ul>
+  <nav class="pr-nav site-utility-bar" aria-label="Site utility navigation">
+    <div class="site-utility-left">
+      <a href="/overview/" class="site-utility-logo" aria-label="Overview" title="Overview">
+        <span aria-hidden="true">◉</span>
+      </a>
+    </div>
+    <div class="site-utility-center pr-nav__links">
+      <a class="site-utility-link nav-meta" href="/overview/">OVERVIEW</a>
+      <div class="pr-nav__dropdown">
+        <button class="pr-nav__dropdown-trigger site-utility-link nav-meta" aria-expanded="false" aria-haspopup="true">PUBLIC RECORD: WE WERE THERE</button>
+        <div class="pr-nav__dropdown-menu" role="menu">
+          <div class="pr-nav__dropdown-section">
+            <span class="pr-nav__dropdown-section-label">We Were There</span>
+            <ul class="pr-nav__dropdown-items">
+              <li><a class="nav-meta" href="/residual/">Residual</a></li>
+              <li><a class="nav-meta" href="/first-day/">First Day</a></li>
+              <li><a class="nav-meta" href="/catalog/">Catalog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a class="site-utility-link nav-meta" href="/street/">STREET</a>
+      <a class="site-utility-link nav-meta" href="/culture/">CULTURE</a>
+      <a class="site-utility-link nav-meta" href="/lifestyle/">LIFESTYLE</a>
+      <a class="site-utility-link nav-meta" href="/portraits/">PORTRAITS</a>
+      <a class="site-utility-link nav-meta" href="/about/">ABOUT</a>
+    </div>
+    <div class="site-utility-right">
+      <a class="site-utility-icon-link nav-meta" href="https://instagram.com/toritorsion" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+        <svg class="site-utility-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="16" rx="1.5"></rect>
+          <line x1="7" y1="8" x2="17" y2="8"></line>
+          <line x1="7" y1="11" x2="17" y2="11"></line>
+          <line x1="7" y1="14" x2="13" y2="14"></line>
+          <line x1="7" y1="17" x2="13" y2="17"></line>
+          <rect x="14.5" y="13" width="3.5" height="4"></rect>
+        </svg>
+      </a>
+      <a class="site-utility-icon-link nav-meta" href="/catalog/" aria-label="Cart" title="Cart">
+        <svg class="site-utility-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="9" cy="20" r="1.2"></circle>
+          <circle cx="17" cy="20" r="1.2"></circle>
+          <path d="M3 4h2l2.2 10.2h9.8l2-7.2H6.2"></path>
+        </svg>
+      </a>
+      <button class="site-utility-mode-toggle nav-meta" id="mode-toggle" aria-label="Toggle lights mode" title="Toggle lights mode"><span aria-hidden="true">💡</span><span>LIGHTS ON -- LIGHTS OFF</span></button>
     </div>
   </nav>
 
   <main>
 
     <!-- PAGE MASTHEAD -->
-    <div class="pr-rule"></div>
-    <section class="pr-masthead pr-masthead--page pr-section">
-      <div class="pr-container">
-        <span class="pr-masthead__pub">Public Record &mdash; Prints</span>
-        <h1 class="pr-masthead__title">First Day</h1>
-        <span class="pr-masthead__sub">Chicago, January 21, 2017 &mdash; Fine Art Print</span>
+    <header class="page-masthead">
+      <div class="page-masthead__inner">
+        <div class="page-masthead__top-rule"></div>
+
+        <div class="page-masthead__row">
+          <div class="page-masthead__box page-masthead__box--left">
+            <div class="page-masthead__box-text">TORI &ldquo;TORSION&rdquo; HOWARD ARCHIVE</div>
+          </div>
+
+          <div class="page-masthead__center">
+            <div class="page-masthead__center-title">PUBLIC RECORD</div>
+          </div>
+
+          <div class="page-masthead__box page-masthead__box--right">
+            <div class="page-masthead__box-text">PRINT EDITIONS</div>
+          </div>
+        </div>
+
+        <div class="page-masthead__thin-rule"></div>
+
+        <div class="page-masthead__edition-line">
+          <div class="page-masthead__edition-left">VOL. 00</div>
+          <div class="page-masthead__edition-center">CHICAGO, 2017&ndash;2024 &mdash; FINE ART PRINT CATALOG &mdash; OPEN &amp; COLLECTOR EDITIONS</div>
+          <div class="page-masthead__edition-right">PUBLIC RECORD ARCHIVE</div>
+        </div>
+
+        <div class="page-masthead__double-rule"></div>
+
+        <div class="page-masthead__stack">
+          <h1 class="page-masthead__headline">CATALOG</h1>
+          <p class="page-masthead__secondary">PUBLIC RECORD &mdash; PRINTS</p>
+          <p class="page-masthead__dek">
+            A print catalog for WE WERE THERE, including open editions and collector editions from the PUBLIC RECORD archive.
+          </p>
+        </div>
+
+        <div class="page-masthead__bottom-space"></div>
       </div>
-    </section>
+    </header>
 
     <!-- ====================================================
          PRODUCT LAYOUT
          ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-product">
+    <section class="page-separator-image pr-section">
+      <div class="pr-container--wide">
+        <div class="pr-product pr-product--editorial">
 
           <!-- LEFT: Image -->
           <div class="pr-product__image">
-            <div class="pr-inspect" data-inspect>
-              <img
-                src="../assets/images/heroes/womens-march-chicago-first-day.jpg"
-                alt="FIRST DAY — Women's March, Chicago, January 21, 2017. Fine art print by Tori Howard."
-                loading="eager"
-              >
+            <div class="pr-product__image-frame">
+              <div class="pr-print-meta-strip">
+                <span>Public Record Print Edition</span>
+                <span>Chicago / 2017</span>
+              </div>
+              <div class="pr-inspect" data-inspect>
+                <img
+                  src="../assets/images/heroes/womens-march-chicago-first-day.jpg"
+                  alt="FIRST DAY — Women's March, Chicago, January 21, 2017. Fine art print by Tori Howard."
+                  loading="eager"
+                >
+              </div>
+              <div class="pr-print-rail">
+                <div class="pr-print-rail__item">
+                  <img src="../assets/images/products/first-day-product-02.jpg" alt="First Day print photographed in a styled product setting" loading="lazy">
+                </div>
+                <div class="pr-print-rail__item">
+                  <img src="../assets/images/first-day/first-day-final-platform.jpg" alt="Platform vantage photograph from the First Day story" loading="lazy">
+                </div>
+              </div>
             </div>
             <p class="t-caption u-mt-gap">FIRST DAY &mdash; Chicago, Illinois &mdash; January 21, 2017</p>
             <p class="t-caption">Photographed from the CTA Green Line gangway above Jackson Boulevard.</p>
@@ -60,13 +142,15 @@
 
           <!-- RIGHT: Details + Sizes -->
           <div>
-            <h2>First Day, Chicago, 2017</h2>
+            <p class="pr-print-kicker">Largest Women's March outside Washington, DC</p>
+            <h2 class="pr-print-title">First Day</h2>
             <p class="t-caption u-mt-gap">Women's March &mdash; Downtown Chicago</p>
 
-            <p class="u-mt-gap-lg">An elevated black and white photograph of the Women&rsquo;s March in downtown Chicago, made from between two CTA train cars the day after the 2017 inauguration. Printed on Moab Juniper Baryta Rag, signed, and available in open and collector editions.</p>
+            <p class="pr-print-dek">An elevated black and white photograph of the Women&rsquo;s March in downtown Chicago, made from between two CTA train cars the day after the January 20, 2017 inauguration. Printed on Moab Juniper Baryta Rag, signed, and available in open and collector editions.</p>
+            <div class="pr-print-quote">One pass over the crowd. One frame. One city refusing to stay quiet.</div>
 
             <!-- SIZE + PRICE TABLE -->
-            <div class="u-mt-gap-lg">
+            <div class="pr-size-table-wrap">
               <div class="pr-rule--light pr-rule"></div>
               <table class="pr-size-table">
                 <thead>
@@ -142,6 +226,17 @@
             <!-- Trust -->
             <p class="u-mt-gap t-caption">Each print is inspected, signed, and shipped directly by Tori Howard from Chicago.</p>
 
+            <div class="pr-print-card-grid">
+              <div class="pr-print-card">
+                <span class="t-label">Paper + Finish</span>
+                <p>Warm-white baryta rag with deep blacks and enough tonal separation to keep the crowd legible when you stand close.</p>
+              </div>
+              <div class="pr-print-card">
+                <span class="t-label">Edition Logic</span>
+                <p>Open sizes keep the image accessible. Collector sizes preserve the monumentality the frame asked for from the start.</p>
+              </div>
+            </div>
+
             <!-- Print specs -->
             <div class="pr-print-specs">
               <span class="t-label">About this print</span>
@@ -169,14 +264,26 @@
          ==================================================== -->
     <div class="pr-rule"></div>
     <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
+      <div class="pr-container--wide">
+        <div class="pr-spread pr-spread--60-40">
+          <div class="pr-editorial-poster">
+            <div class="pr-editorial-poster__issue">
+              <span>Issue One</span>
+              <span>Public Record / First Day</span>
+            </div>
             <h2>About<br>This Print</h2>
+            <div class="pr-editorial">
+              <p>FIRST DAY was photographed on January 21, 2017, when nearly 250,000 people filled downtown Chicago for the Women&rsquo;s March the day after the inauguration. I made this frame from the gangway between two moving CTA train cars as the Green Line curved over Jackson Boulevard.</p>
+              <p>From the street, the march felt loud and chaotic. From above, it became something else: a single moving body stretching through the city. The train hardware remains in the frame on purpose. It is part of the truth of where the picture was made, and part of what makes this image feel like evidence instead of nostalgia.</p>
+            </div>
+            <div class="pr-editorial-poster__quote">What felt chaotic from the street became one visible pulse from above.</div>
           </div>
-          <div class="pr-editorial">
-            <p>FIRST DAY was photographed on January 21, 2017, when nearly 250,000 people filled downtown Chicago for the Women&rsquo;s March the day after the inauguration. I made this frame from the gangway between two moving CTA train cars as the Green Line curved over Jackson Boulevard.</p>
-            <p>From the street, the march felt loud and chaotic. From above, it became something else: a single moving body stretching through the city. The train hardware remains in the frame on purpose. It is part of the truth of where the picture was made, and part of what makes this image feel like evidence instead of nostalgia.</p>
+          <div class="pr-editorial-panel">
+            <img src="../assets/images/first-day/first-day-through-rail-view.jpg" alt="View through the CTA rail from the First Day story" loading="lazy">
+            <div class="pr-editorial-panel__meta">
+              <p><span class="t-label">Vantage</span><br>Between two Green Line cars over Jackson Boulevard.</p>
+              <p><span class="t-label">Why it matters</span><br>The steel and rails hold the frame in the exact place the photograph was made.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -216,7 +323,7 @@
         <div class="pr-footer__meta" style="text-align: right;">
           <p><a href="../first-day/">First Day</a></p>
           <p><a href="../residual/">Residual</a></p>
-          <p><a href="../first-day-print/">Prints</a></p>
+          <p><a href="../catalog/">Catalog</a></p>
         </div>
         <div class="pr-footer__meta" style="max-width: 260px;">
           <p>Checkout is handled securely through Stripe. All image rights remain with the artist. Physical prints only.</p>
@@ -227,5 +334,6 @@
 
   <script src="../assets/js/inspect.js"></script>
   <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/mode.js"></script>
 </body>
 </html>

@@ -14,14 +14,52 @@
 <body>
 
   <!-- NAV -->
-  <nav class="pr-nav" aria-label="Main navigation">
-    <div class="pr-nav__inner">
-      <a href="../" class="pr-nav__pub">Public Record</a>
-      <ul class="pr-nav__links">
-        <li><a href="../first-day/">First Day</a></li>
-        <li><a href="../residual/">Residual</a></li>
-        <li><a href="../first-day-print/">Prints</a></li>
-      </ul>
+  <nav class="pr-nav site-utility-bar" aria-label="Site utility navigation">
+    <div class="site-utility-left">
+      <a href="/overview/" class="site-utility-logo" aria-label="Overview" title="Overview">
+        <span aria-hidden="true">◉</span>
+      </a>
+    </div>
+    <div class="site-utility-center pr-nav__links">
+      <a class="site-utility-link nav-meta" href="/overview/">OVERVIEW</a>
+      <div class="pr-nav__dropdown">
+        <button class="pr-nav__dropdown-trigger site-utility-link nav-meta" aria-expanded="false" aria-haspopup="true">PUBLIC RECORD: WE WERE THERE</button>
+        <div class="pr-nav__dropdown-menu" role="menu">
+          <div class="pr-nav__dropdown-section">
+            <span class="pr-nav__dropdown-section-label">We Were There</span>
+            <ul class="pr-nav__dropdown-items">
+              <li><a class="nav-meta" href="/residual/">Residual</a></li>
+              <li><a class="nav-meta" href="/first-day/">First Day</a></li>
+              <li><a class="nav-meta" href="/catalog/">Catalog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a class="site-utility-link nav-meta" href="/street/">STREET</a>
+      <a class="site-utility-link nav-meta" href="/culture/">CULTURE</a>
+      <a class="site-utility-link nav-meta" href="/lifestyle/">LIFESTYLE</a>
+      <a class="site-utility-link nav-meta" href="/portraits/">PORTRAITS</a>
+      <a class="site-utility-link nav-meta" href="/about/">ABOUT</a>
+    </div>
+    <div class="site-utility-right">
+      <a class="site-utility-icon-link nav-meta" href="https://instagram.com/toritorsion" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+        <svg class="site-utility-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="16" rx="1.5"></rect>
+          <line x1="7" y1="8" x2="17" y2="8"></line>
+          <line x1="7" y1="11" x2="17" y2="11"></line>
+          <line x1="7" y1="14" x2="13" y2="14"></line>
+          <line x1="7" y1="17" x2="13" y2="17"></line>
+          <rect x="14.5" y="13" width="3.5" height="4"></rect>
+        </svg>
+      </a>
+      <a class="site-utility-icon-link nav-meta" href="/catalog/" aria-label="Cart" title="Cart">
+        <svg class="site-utility-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="9" cy="20" r="1.2"></circle>
+          <circle cx="17" cy="20" r="1.2"></circle>
+          <path d="M3 4h2l2.2 10.2h9.8l2-7.2H6.2"></path>
+        </svg>
+      </a>
+      <button class="site-utility-mode-toggle nav-meta" id="mode-toggle" aria-label="Toggle lights mode" title="Toggle lights mode"><span aria-hidden="true">💡</span><span>LIGHTS ON -- LIGHTS OFF</span></button>
     </div>
   </nav>
 
@@ -30,325 +68,219 @@
     <!-- ====================================================
          SECTION 1: MASTHEAD
          ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-masthead pr-masthead--page pr-section">
-      <div class="pr-container">
-        <span class="pr-masthead__pub">Public Record</span>
-        <h1 class="pr-masthead__title">First Day</h1>
-        <span class="pr-masthead__sub">Chicago, January 21, 2017</span>
+    <header class="page-masthead">
+      <div class="page-masthead__inner">
+        <div class="page-masthead__top-rule"></div>
+
+        <div class="page-masthead__row">
+          <div class="page-masthead__box page-masthead__box--left">
+            <div class="page-masthead__box-text">TORI &ldquo;TORSION&rdquo; HOWARD ARCHIVE</div>
+          </div>
+
+          <div class="page-masthead__center">
+            <div class="page-masthead__center-title">PUBLIC RECORD</div>
+          </div>
+
+          <div class="page-masthead__box page-masthead__box--right">
+            <div class="page-masthead__box-text">WE WERE THERE</div>
+          </div>
+        </div>
+
+        <div class="page-masthead__thin-rule"></div>
+
+        <div class="page-masthead__edition-line">
+          <div class="page-masthead__edition-left">VOL. 02</div>
+          <div class="page-masthead__edition-center">CHICAGO, ILLINOIS &mdash; JANUARY 21, 2017 &mdash; DOCUMENTARY FIELD RECORD</div>
+          <div class="page-masthead__edition-right">PUBLIC RECORD ARCHIVE</div>
+        </div>
+
+        <div class="page-masthead__double-rule"></div>
+
+        <div class="page-masthead__stack">
+          <h1 class="page-masthead__headline">FIRST DAY</h1>
+          <p class="page-masthead__secondary">PUBLIC RECORD</p>
+          <p class="page-masthead__dek">
+            There are days we live through that we just don&rsquo;t forget. Memory gets fuzzy, timelines overlap, details fade, but the feeling stays.
+          </p>
+        </div>
+
+        <div class="page-masthead__bottom-space"></div>
       </div>
-    </section>
+    </header>
 
     <!-- ====================================================
          SECTION 2: HERO PLATE
          ==================================================== -->
-    <section class="pr-section--flush">
-      <div class="pr-plate pr-inspect" data-inspect>
+    <section class="page-separator-image pr-section--flush">
+      <div class="pr-plate pr-plate--hero-banner">
         <img
-          src="../assets/images/heroes/womens-march-chicago-first-day.jpg"
+          src="../assets/images/first-day/womens-march-chicago-first-day-story-designed.jpeg"
           alt="FIRST DAY — Women's March, Chicago, January 21, 2017. A quarter million people fill Jackson Boulevard, photographed from the CTA Green Line gangway."
           loading="eager"
         >
       </div>
     </section>
 
-    <!-- ====================================================
-         SECTION 3: PRINT PLATE CAPTION
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section--sm">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <h3>First Day</h3>
-            <p class="t-caption u-mt-gap">Chicago, Illinois &mdash; January 21, 2017</p>
+    <div class="pr-story" id="essay">
+      <div class="pr-story__headline pr-story__headline--lead">
+        <h2 class="section-title-editorial">Inside the March</h2>
+        <p class="pr-story__intro section-dek">There are days we live through that we just don&rsquo;t forget. Our memory gets fuzzy, timelines overlap, details fade &mdash; but the feeling stays. The conversations. The air. The way the city felt.</p>
+      </div>
+
+      <div class="pr-story__body">
+        <aside class="pr-story__aside">
+          <img
+            class="pr-story__aside-img"
+            src="../assets/images/first-day/first-day-depaul-overlook.jpg"
+            alt="Women's March, Chicago 2017 — crowd view from DePaul elevated position"
+            loading="lazy"
+          >
+          <div class="pr-story__aside-caption">First Day. Chicago, Illinois. January 21, 2017. A quarter million people gathered in downtown Chicago the day after the inauguration of the 45th president.</div>
+          <div class="pr-story__note">Photographed from the gangway between CTA Green Line train cars above Jackson Boulevard. One pass over the crowd. One frame at 1/2500 of a second.</div>
+        </aside>
+
+        <div class="pr-story__text">
+          <span class="t-label">The Story</span>
+          <p>The morning after the 45th president of the United States was sworn in is one of those days for me.</p>
+          <p>You could feel the shift before anything really started. The weeks leading up to January 21, 2017 were strange and heavy in a way that was hard to ignore. I felt it in airports in cities all over the country, in terminals and on flights while I was working. Back then, most people avoided talking politics with strangers. Suddenly there it was at 30,000 feet: anxiety, anger, fear, wild optimism, jokes that weren&rsquo;t really jokes.</p>
+          <p>Back home in Chicago, that same weight was in the air. So when people started talking about the Women&rsquo;s March, it made sense that the city would show up &mdash; and I knew I should too.</p>
+          <div class="pr-story__img-pair">
+            <img src="../assets/images/first-day/first-day-bucket-drummers.jpg" alt="Chicago Bucket Boys at the Women's March" loading="lazy">
+            <img src="../assets/images/first-day/first-day-kid-on-moms-back-in-crowd.jpg" alt="Kid on a mother's back in the march crowd, Chicago 2017" loading="lazy">
           </div>
-          <div>
-            <p style="font-size: clamp(14px, 1.1vw, 16px); color: var(--pr-muted);">A quarter million people gathered in downtown Chicago for the Women&rsquo;s March the day after the inauguration of the 45th President of the United States.</p>
-            <p class="t-caption u-mt-gap">Photographed from the gangway between CTA Green Line train cars above Jackson Boulevard.</p>
+          <p>Nearly 250,000 people pulled into the Loop that morning. Families. Elders. Kids in strollers. Babies in arms. Kids in capes. Women carrying flowers. Cardboard signs you could tell were made the night before at kitchen tables and in living rooms: some funny, some sharp, some petty, all personal. Every slogan on cardboard came from somebody&rsquo;s body.</p>
+          <p>Chants bounced between buildings. The Chicago Bucket Boys blessed the streets with that classic Chi-Town drumline, cracking off glass and steel. Phones were out, cameras up, cops on bikes posted at the edges.</p>
+          <p>Kids in capes, aunties on the mic in long coats, dudes in work gear before their shifts, mothers with infants bundled up, families rolling deep like it was a field trip. Handwritten jokes, receipts and stats, love notes, anger, prayers. It was the city as I knew it &mdash; just louder, and all facing the same direction.</p>
+          <div class="pr-story__img-pair">
+            <img src="../assets/images/first-day/first-day-megaphone-chant-newspaper-auntie-on-mic.jpg" alt="Auntie on the mic at the Women's March, Chicago 2017" loading="lazy">
+            <img src="../assets/images/first-day/first-day-kid-cape.jpg" alt="Kid in a cape at the Women's March, Chicago 2017" loading="lazy">
+          </div>
+          <p>Pre-COVID, downtown already knew how to be crowded. I&rsquo;d photographed parades, festivals, and random weekends from rooftops, garages, and sidewalks. But this wasn&rsquo;t that kind of busy. This was <strong>packed packed</strong>. Shoulder to shoulder. I definitely found myself stepping on the backs of strangers&rsquo; sneakers just trying to move through, stuck in this constant loop of &ldquo;sorry, excuse me, my bad,&rdquo; which everyone was on. The number of cameras floating around was wild &mdash; and honestly, it was motivating. I knew I had to see it differently.</p>
+          <div class="pr-story__img-triptych">
+            <img src="../assets/images/first-day/first-day-baby-in-arms-in-crowd.jpg" alt="Baby in arms in the march crowd, Chicago 2017" loading="lazy">
+            <img src="../assets/images/first-day/first-day-elder-woman-looking-up.jpg" alt="Elder woman looking up during the march, Chicago 2017" loading="lazy">
+            <img src="../assets/images/first-day/first-day-kids-on-train.jpg" alt="Kids on the train during the Women's March, Chicago 2017" loading="lazy">
+          </div>
+          <div class="pr-story__pull">What felt chaotic and cramped from the street turned into one visible pulse stretching down the block.</div>
+        </div>
+      </div>
+
+      <div class="pr-story__body pr-story__body--equal">
+        <aside class="pr-story__aside">
+          <div class="pr-story__aside-stack">
+            <img src="../assets/images/first-day/first-day-through-rail-view.jpg" alt="View from between the CTA Green Line train cars, Women's March, Chicago 2017" loading="lazy">
+            <img src="../assets/images/first-day/first-day-empty-stair-through-rail.jpg" alt="Empty CTA stair and rail view on march day, Chicago 2017" loading="lazy">
+          </div>
+          <div class="pr-story__aside-caption">The train hardware stays in the frame on purpose. It marks the exact place the photograph was made and keeps the image grounded in its real point of view.</div>
+        </aside>
+
+        <div class="pr-story__text">
+          <p>From street level I could feel how big it was in my chest before I could really see it with my eyes. The energy sharpened everything. But visually, it started to feel small. Too many angles felt obvious. Too many lenses pointed the same way at the same signs. And if you know me, you know I&rsquo;m not out there to remake the same frame as the next photographer.</p>
+          <p>We were living through a turning point, and I wanted to make a photograph that actually felt like one.</p>
+          <p>At some point, in all that noise, I heard the train overhead.</p>
+          <p>I had the shot in my head before I even saw the platform. I linked up with another photographer I knew in the crowd, pointed up, and basically said, &ldquo;Yo, we gotta get up there and shoot this from above.&rdquo;</p>
+          <p>Getting to the Green Line a few blocks over <em>in time</em> while cutting across a moving river of people who weren&rsquo;t stopping was the only challenge. You either flowed with it, or you stalled.</p>
+          <p>By the time I made it up to the elevated platform, the march was already deep into downtown. I knew I had one shot at this. One pass over the crowd. One chance to line my body, the lens, and Jackson Boulevard up the way I&rsquo;d already composed it in my mind.</p>
+          <img class="pr-story__inline-img" src="../assets/images/first-day/first-day-final-platform.jpg" alt="Women's March crowd from the final platform vantage, Chicago 2017" loading="lazy">
+          <p>I went out onto the gangway between two CTA cars on the Green Line &mdash; not inside the train, not behind the glass. Just that skinny strip of space with all the steel and grease, open to the winter air. Camera strap wrapped tight around my wrist. One hand locked on the rail, the other riding my settings as the train curved and picked up speed toward Wabash and Jackson.</p>
+          <p>Making my way back toward the core of the march, I could feel it coming before I saw it &mdash; the train swinging around turns, light peeking through and disappearing behind the buildings again. Different pockets of the city had crowd noise underneath, echoing up through the tracks. My position was set.</p>
+          <div class="pr-story__img-pair">
+            <img src="../assets/images/first-day/first-day-police-in-branches.jpg" alt="Police seen through branches during the Women's March, Chicago 2017" loading="lazy">
+            <img src="../assets/images/first-day/womens-march-chicago-first-day-story.jpg" alt="Street-level Women's March story frame, Chicago 2017" loading="lazy">
+          </div>
+          <p>And then it opened up.</p>
+          <p>What felt chaotic and cramped from the street turned into something undeniable from above. The crowd read as one body, filling Jackson from edge to edge. Signs turned into texture. People became pattern. The noise turned into a single visible pulse that stretched down the block.</p>
+          <p><strong>FIRST DAY</strong> is that moment &mdash; 1/2500 of a second where a quarter million people moving through downtown Chicago became a shape you can actually see.</p>
+          <p>Nobody out there was on a mission to catch the algorithm or perform for content. It was people using their feet and their First Amendment in public because they felt like something fundamental had just moved under them.</p>
+          <p>On paper, that day shows up in local news as a peaceful rally of more than 250,000 people, the largest Women&rsquo;s March outside Washington, DC. That number matters.</p>
+          <p>Nearly a decade later, it doesn&rsquo;t feel like a one-off. It feels like the first page of a chapter we&rsquo;re still inside. The fears and warnings people were carrying on cardboard that day aged into reality over the next four years, then the next four after that. And if you look closely, the signs kind of saw it all before a lot of us did.</p>
+          <p>That&rsquo;s why I treat <strong>FIRST DAY</strong> &mdash; and a lot of the photographs I made that afternoon &mdash; as public record, not nostalgia. It&rsquo;s not a &ldquo;remember when we marched?&rdquo; poster. It&rsquo;s proof that we really did show up and say something on the very first day of what turned into a long, exhausting era.</p>
+        </div>
+      </div>
+
+      <div class="pr-story__headline">
+        <h2>Reading the Frame</h2>
+        <p class="pr-story__intro">One of my favorite things about seeing this photograph as a print is how far the detail actually runs. On a screen you get the idea. On paper you get the depth.</p>
+      </div>
+
+      <div class="pr-story__body pr-story__body--equal">
+        <aside class="pr-story__aside">
+          <div class="pr-story__aside-pair">
+            <img src="../assets/images/first-day/first-day-platform-crowd.jpg" alt="Women's March crowd from the CTA platform, Chicago 2017" loading="lazy">
+            <img src="../assets/images/first-day/first-day-vertical-crowd.jpg" alt="Vertical crowd frame, Women's March, Chicago 2017" loading="lazy">
+          </div>
+          <div class="pr-story__aside-caption">The frame holds signs, faces, coats, gestures, and small pockets of energy that keep revealing themselves the longer you stand with the print.</div>
+        </aside>
+
+        <div class="pr-story__text">
+          <p>When people stand in front of the print, they start scanning it. Someone always finds something new a few seconds later. A sign they missed. A face looking straight up. A pocket of people halfway down the street. The photograph keeps opening the longer you sit with it.</p>
+          <div class="pr-story__img-pair">
+            <img src="../assets/images/first-day/first-day-hands-off-sign.jpg" alt="Hands Off sign at the Women's March, Chicago 2017" loading="lazy">
+            <img src="../assets/images/first-day/first-day-heart-sign.jpg" alt="Heart sign in the march crowd, Chicago 2017" loading="lazy">
+          </div>
+          <p>FIRST DAY is printed on Moab Juniper Baryta Rag &mdash; a fiber-based baryta paper with a warm white base and exceptional tonal depth for black and white printing. Signed by the artist. Certificate of authenticity included with every print. Available in open editions and a limited collector edition.</p>
+          <p><em>Prints start at $100. Open editions in 8.5&thinsp;&times;&thinsp;11, 11&thinsp;&times;&thinsp;14, and 13&thinsp;&times;&thinsp;19. Collector editions in 17&thinsp;&times;&thinsp;22 (limited to 15) and 24&thinsp;&times;&thinsp;36 (limited to 7), individually numbered. Printed in Chicago.</em></p>
+          <div class="pr-btn--group">
+            <a href="../first-day-print/" class="pr-btn">Collect First Day</a>
+            <a href="../residual/" class="pr-btn">Continue to Residual</a>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 4: STORY GATEWAY
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <h2>Inside<br>the March</h2>
-          </div>
-          <div>
-            <p class="pr-editorial u-mb-gap-lg">From street level the march felt endless. From above, the city revealed its shape.</p>
-            <a href="#essay" class="pr-btn">Continue</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 5: ANCHOR IMAGE (DePaul overlook)
-         ==================================================== -->
-    <section class="pr-section--flush">
-      <div class="pr-plate pr-inspect" data-inspect>
-        <img
-          src="../assets/images/first-day/first-day-depaul-overlook.jpg"
-          alt="Women's March, Chicago 2017 — crowd view from DePaul elevated position"
-          loading="lazy"
-        >
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTIONS 6 + 7: ESSAY
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section" id="essay">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div style="padding-top: .2em;">
-            <span class="t-label">The Story</span>
-          </div>
-          <div class="pr-essay">
-            <p>The morning after the 45th president of the United States was sworn in is one of those days for me.</p>
-            <p>You could feel the shift before anything really started. The weeks leading up to January 21, 2017 were strange and heavy in a way that was hard to ignore. I felt it in airports in cities all over the country, in terminals and on flights while I was working. Back then, most people avoided talking politics with strangers. Suddenly there it was at 30,000 feet: anxiety, anger, fear, wild optimism, jokes that weren&rsquo;t really jokes.</p>
-            <p>Back home in Chicago, that same weight was in the air. So when people started talking about the Women&rsquo;s March, it made sense that the city would show up &mdash; and I knew I should too.</p>
-            <p>Nearly 250,000 people pulled into the Loop that morning. Families. Elders. Kids in strollers. Babies in arms. Kids in capes. Women carrying flowers. Cardboard signs you could tell were made the night before at kitchen tables and in living rooms: some funny, some sharp, some petty, all personal. Every slogan on cardboard came from somebody&rsquo;s body.</p>
-            <p>Chants bounced between buildings. The Chicago Bucket Boys blessed the streets with that classic Chi-Town drumline, cracking off glass and steel. Phones were out, cameras up, cops on bikes posted at the edges.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 7: ESSAY CONTINUED
-         ==================================================== -->
-    <div class="pr-rule--light pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div><!-- intentional blank left column --></div>
-          <div class="pr-essay">
-            <p>From street level I could feel how big it was in my chest before I could really see it with my eyes. The energy sharpened everything. But visually, it started to feel small. Too many angles felt obvious. Too many lenses pointed the same way at the same signs. And if you know me, you know I&rsquo;m not out there to remake the same frame as the next photographer.</p>
-            <p>We were living through a turning point, and I wanted to make a photograph that actually felt like one.</p>
-            <p>At some point, in all that noise, I heard the train overhead.</p>
-            <p>I had the shot in my head before I even saw the platform. I linked up with another photographer I knew in the crowd, pointed up, and basically said, &ldquo;Yo, we gotta get up there and shoot this from above.&rdquo;</p>
-            <p>By the time I made it up to the elevated platform, the march was already deep into downtown. I knew I had one shot at this. One pass over the crowd. One chance to line my body, the lens, and Jackson Boulevard up the way I&rsquo;d already composed it in my mind.</p>
-            <p>I went out onto the gangway between two CTA cars on the Green Line &mdash; not inside the train, not behind the glass. Just that skinny strip of space with all the steel and grease, open to the winter air. Camera strap wrapped tight around my wrist. One hand locked on the rail, the other riding my settings as the train curved and picked up speed toward Wabash and Jackson.</p>
-            <p>And then it opened up.</p>
-            <p>What felt chaotic and cramped from the street turned into something undeniable from above. The crowd read as one body, filling Jackson from edge to edge. Signs turned into texture. People became pattern. The noise turned into a single visible pulse that stretched down the block.</p>
-            <p><strong>FIRST DAY</strong> is that moment &mdash; 1/2500 of a second where a quarter million people moving through downtown Chicago became a shape you can actually see.</p>
-            <p>Nearly a decade later, it doesn&rsquo;t feel like a one-off. It feels like the first page of a chapter we&rsquo;re still inside. The fears and warnings people were carrying on cardboard that day aged into reality over the next four years, then the next four after that. And if you look closely, the signs kind of saw it all before a lot of us did.</p>
-            <p>That&rsquo;s why I treat <strong>FIRST DAY</strong> &mdash; and a lot of the photographs I made that afternoon &mdash; as public record, not nostalgia. It&rsquo;s not a &ldquo;remember when we marched?&rdquo; poster. It&rsquo;s proof that we really did show up and say something on the very first day of what turned into a long, exhausting era.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PRICE ANCHOR — post-essay -->
-    <div class="pr-rule--light pr-rule"></div>
-    <section class="pr-section--sm">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div><!-- intentional blank --></div>
-          <div>
-            <p>Available as a fine art print from $100. Open and collector editions, printed in Chicago on Moab Juniper Baryta Rag.</p>
-            <div class="u-mt-gap">
-              <a href="../first-day-print/" class="pr-btn">View editions &rarr;</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 8: PLATE PAUSE — through the rail
-         ==================================================== -->
-    <section class="pr-section--flush">
-      <div class="pr-plate">
-        <img
-          src="../assets/images/first-day/first-day-through-rail-view.jpg"
-          alt="View from between the CTA Green Line train cars, Women's March, Chicago 2017"
-          loading="lazy"
-        >
-      </div>
-    </section>
+    </div>
 
     <!-- ====================================================
          SECTION 9: PROTEST SIGN GRID (14 images)
          ==================================================== -->
     <div class="pr-rule"></div>
     <section class="pr-section--sm">
-      <div class="pr-container--wide">
-        <div class="u-mb-gap">
-          <span class="t-label">From the streets &mdash; Chicago, January 21, 2017</span>
-        </div>
-      </div>
-      <div class="pr-grid">
+      <div class="pr-contact-sheet-wrap">
+        <h2 class="pr-contact-sheet-title">More From the Day</h2>
+        <div class="pr-contact-sheet">
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-megaphone-chant.jpg" alt="Megaphone chant at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-blm-stroller.jpg" alt="BLM stroller at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-alley-crowd.jpg" alt="March crowd in a Chicago alley, 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-i-am-woman-sign.jpg" alt="I Am Woman sign at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-john-marshall-law-school-kids.jpg" alt="John Marshall Law School kids at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-prove-us-wrong-sign.jpg" alt="Prove Us Wrong sign at the Women's March, Chicago 2017" loading="lazy"></div>
 
-        <!-- 1 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/first-day/first-day-megaphone-chant.jpg" alt="Women's March Chicago — megaphone chant" loading="lazy">
-        </div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-flower-hand.jpg" alt="Flower in hand at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-los-crudos-fist.jpg" alt="Raised fist at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-flower-police.jpg" alt="Flower near police line at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-peace-baby.jpg" alt="Baby with peace sign imagery at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-ahs-sign.jpg" alt="AHS sign at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-kid-holding-michelle-obama-quote-sign.jpg" alt="Kid holding a Michelle Obama quote sign, Chicago 2017" loading="lazy"></div>
 
-        <!-- 2: MISSING — placeholder -->
-        <img src="../assets/images/first-day/first-day-trump-wig-kid.jpg" alt="Women's March, Chicago 2017" loading="lazy">
-        </div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-bucket-drummers-stick-toss.jpg" alt="Bucket drummers stick toss, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-chaotic-solitude-guy.jpg" alt="Chaotic solitude frame at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-down-with-misogyny-and-swindlers-sign.jpg" alt="Down with misogyny and swindlers sign, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-dump-trump-sign.jpg" alt="Dump Trump sign at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-earth-cant-wait-4-years-sign.jpg" alt="Earth can't wait four years sign, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-blow-horn-kid.jpg" alt="Blow horn kid at the Women's March, Chicago 2017" loading="lazy"></div>
 
-        <!-- 3: MISSING — placeholder -->
-        <img src="../assets/images/first-day-blm-stroller.jpg" alt="Women's March, Chicago 2017" loading="lazy">
-        </div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-mums-against-misogyny-sign.jpg" alt="Mums Against Misogyny sign at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-not-putin-sign.jpg" alt="Not Putin sign at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-megaphone-chant-wide.jpg" alt="Wide megaphone chant view at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-train-window-kid.jpg" alt="Kid on the CTA train, Women's March day, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-street-emptying.jpg" alt="Street emptying after the Women's March, Chicago 2017" loading="lazy"></div>
 
-        <!-- 4: MISSING — placeholder -->
-        <img src="../assets/images/first-day-i-am-woman-sign.jpg" alt="Women's March, Chicago 2017" loading="lazy">
-        </div>
-
-        <!-- 5 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/first-day/first-day-bucket-drummers.jpg" alt="Chicago Bucket Boys at the Women's March" loading="lazy">
-        </div>
-
-        <!-- 6: MISSING — placeholder -->
-        <img src="../assets/images/first-day-los-crudos-fist.jpg" alt="Women's March, Chicago 2017" loading="lazy">
-        </div>
-
-        <!-- 7: MISSING — placeholder -->
-        <img src="../assets/images/first-day-flower-hand.jpg" alt="Women's March, Chicago 2017" loading="lazy">
-        </div>
-
-        <!-- 8: MISSING — placeholder -->
-        <img src="../assets/images/first-day-flower-police.jpg" alt="Women's March, Chicago 2017" loading="lazy">
-        </div>
-
-        <!-- 9: MISSING — placeholder -->
-        <img src="../assets/images/first-day-peace-baby.jpg" alt="Women's March, Chicago 2017" loading="lazy">
-        </div>
-
-        <!-- 10 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/first-day/first-day-platform-crowd.jpg" alt="Women's March crowd from the CTA platform, Chicago 2017" loading="lazy">
-        </div>
-
-        <!-- 11 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/first-day/first-day-alley-crowd.jpg" alt="March crowd in a Chicago alley, 2017" loading="lazy">
-        </div>
-
-        <!-- 12: first-day-kids-on-train.jpg → using available train-window-kid -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/first-day/first-day-train-window-kid.jpg" alt="Kid on the CTA train, Women's March day, Chicago 2017" loading="lazy">
-        </div>
-
-        <!-- 13 -->
-        <div class="pr-grid__item">
-          <img src="../assets/images/first-day/first-day-vertical-crowd.jpg" alt="Vertical crowd frame, Women's March, Chicago 2017" loading="lazy">
-        </div>
-
-        <!-- 14: MISSING — using final-platform as closest available -->
-        <img src="../assets/images/first-day-street-emptying.jpg" alt="Women's March, Chicago 2017" loading="lazy">
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 10: READING THE FRAME
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <h2>Reading<br>the Frame</h2>
-          </div>
-          <div class="pr-editorial">
-            <p>One of my favorite things about seeing this photograph as a print is how far the detail actually runs. The frame is sharp all the way through the back of the crowd. You can start in the foreground and just keep traveling through it &mdash; signs, faces, coats, gestures &mdash; block after block of people filling Jackson Boulevard.</p>
-            <p>When people stand in front of the print, they start scanning it. Someone always finds something new a few seconds later. A sign they missed. A face looking straight up. A pocket of people halfway down the street. The photograph keeps opening the longer you sit with it.</p>
-            <p>On a screen you get the idea. On paper you get the depth.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 11: PHOTO NOTE
-         ==================================================== -->
-    <div class="pr-rule--light pr-rule"></div>
-    <section class="pr-section--sm">
-      <div class="pr-container">
-        <div class="pr-note">
-          <span class="pr-note__label">Photo Note</span>
-          <p>FIRST DAY was photographed from the gangway between two CTA Green Line train cars as the train moved over Jackson Boulevard. One pass over the crowd. One frame at 1/2500 of a second. The train hardware visible in the frame is intentional. It marks the exact place the photograph was made.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 12: PRINT INFORMATION
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <h2>Print Information</h2>
-          </div>
-          <div>
-            <p>FIRST DAY is printed on Moab Juniper Baryta Rag &mdash; a fiber-based baryta paper with a warm white base and exceptional tonal depth for black and white printing. Signed by the artist. Certificate of authenticity included with every print. Available in open editions and a limited collector edition.</p>
-            <p class="u-mt-gap"><em>Prints start at $100. Open editions in 8.5&thinsp;&times;&thinsp;11, 11&thinsp;&times;&thinsp;14, and 13&thinsp;&times;&thinsp;19. Collector editions in 17&thinsp;&times;&thinsp;22 (limited to 15) and 24&thinsp;&times;&thinsp;36 (limited to 7), individually numbered. Printed in Chicago.</em></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 13: CTA
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <p class="pr-transition">&ldquo;On a screen you get the idea. On paper you get the depth.&rdquo;</p>
-          </div>
-          <div>
-            <a href="../first-day-print/" class="pr-btn">Collect First Day</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ====================================================
-         SECTION 14: TRANSITION TO RESIDUAL
-         ==================================================== -->
-    <div class="pr-rule"></div>
-    <section class="pr-section">
-      <div class="pr-container">
-        <div class="pr-spread">
-          <div>
-            <p class="pr-transition">&ldquo;And then there&rsquo;s what gets left behind when the crowd goes home.&rdquo;</p>
-          </div>
-          <div>
-            <a href="../residual/" class="pr-btn">Enter Residual</a>
-          </div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-trump-liar-doll.jpg" alt="Trump liar doll at the Women's March, Chicago 2017" loading="lazy"></div>
+          <div class="pr-contact-sheet__item"><img src="../assets/images/first-day/first-day-well-behaved-women-sign.jpg" alt="Well-behaved women sign at the Women's March, Chicago 2017" loading="lazy"></div>
         </div>
       </div>
     </section>
     <div class="pr-rule"></div>
 
-    <!-- EMAIL CAPTURE -->
+  </main>
+
+  <div class="pr-site-lower">
     <section class="pr-section--sm">
       <div class="pr-container">
         <div class="pr-spread">
           <div>
-            <span class="t-label">Stay in the record</span>
+            <div class="pr-email-heading">Stay in the Record</div>
           </div>
           <div>
-            <p class="u-mb-gap">New prints and collector editions announced by email. No noise.</p>
-            <!-- Buttondown embed: replace YOUR-BUTTONDOWN-USERNAME below -->
+            <p class="u-mb-gap">New work, print releases, and what comes next — from Chicago, when it matters.</p>
             <form
               action="https://buttondown.com/toritorsion/embed"
               method="post"
@@ -363,35 +295,33 @@
         </div>
       </div>
     </section>
-    <div class="pr-rule"></div>
 
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="pr-footer">
-    <div class="pr-container">
-      <div class="pr-footer__inner">
-        <div>
-          <div class="pr-footer__pub">Public Record</div>
-          <div class="pr-footer__meta u-mt-gap">
-            <p>A documentary print publication</p>
-            <p>by Tori &ldquo;Torsion&rdquo; Howard</p>
-            <p>Chicago, Illinois</p>
+    <footer class="pr-footer">
+      <div class="pr-container">
+        <div class="pr-footer__inner">
+          <div>
+            <div class="pr-footer__pub">Public Record</div>
+            <div class="pr-footer__meta u-mt-gap">
+              <p>A documentary print publication</p>
+              <p>by Tori &ldquo;Torsion&rdquo; Howard</p>
+              <p>Chicago, Illinois</p>
+            </div>
+          </div>
+          <div class="pr-footer__meta" style="text-align: right;">
+            <p><a href="../first-day/">First Day</a></p>
+            <p><a href="../residual/">Residual</a></p>
+            <p><a href="../catalog/">Catalog</a></p>
+          </div>
+          <div class="pr-footer__meta" style="max-width: 260px;">
+            <p>All image rights remain with the artist. Physical prints only. Printed in Chicago on Moab Juniper Baryta Rag.</p>
           </div>
         </div>
-        <div class="pr-footer__meta" style="text-align: right;">
-          <p><a href="../first-day/">First Day</a></p>
-          <p><a href="../residual/">Residual</a></p>
-          <p><a href="../first-day-print/">Prints</a></p>
-        </div>
-        <div class="pr-footer__meta" style="max-width: 260px;">
-          <p>All image rights remain with the artist. Physical prints only. Printed in Chicago on Moab Juniper Baryta Rag.</p>
-        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <script src="../assets/js/inspect.js"></script>
   <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/mode.js"></script>
 </body>
 </html>

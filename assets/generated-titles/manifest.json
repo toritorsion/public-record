@@ -1,0 +1,305 @@
+{
+  "asset_root": "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS",
+  "seed": 20260314,
+  "titles": [
+    {
+      "slug": "residual",
+      "text": "RESIDUAL",
+      "final_file": "residual.png",
+      "final_source_option": "residual-02.png",
+      "final_score": 0.7458,
+      "variants": [
+        {
+          "text": "RESIDUAL",
+          "score": 0.7458,
+          "avg_letter_score": 0.659,
+          "density_ratio": 0.8044,
+          "selected_variants": [
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/R/R-26.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/E/E-17.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/S/S-04.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/I/I-25.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/D/D-04.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/U/U-26.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-27.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/L/L-10.png"
+          ],
+          "skipped_characters": [],
+          "size": {
+            "width": 2700,
+            "height": 640
+          },
+          "seed": 3994868842,
+          "file": "residual-02.png"
+        },
+        {
+          "text": "RESIDUAL",
+          "score": 0.7159,
+          "avg_letter_score": 0.5899,
+          "density_ratio": 0.8393,
+          "selected_variants": [
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/R/R-29.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/E/E-29.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/S/S-15.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/I/I-11.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/D/D-04.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/U/U-15.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-27.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/L/L-20.png"
+          ],
+          "skipped_characters": [],
+          "size": {
+            "width": 2700,
+            "height": 640
+          },
+          "seed": 3994876749,
+          "file": "residual-03.png"
+        },
+        {
+          "text": "RESIDUAL",
+          "score": 0.7141,
+          "avg_letter_score": 0.6361,
+          "density_ratio": 0.7781,
+          "selected_variants": [
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/R/R-25.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/E/E-22.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/S/S-30.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/I/I-18.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/D/D-10.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/U/U-26.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-24.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/L/L-20.png"
+          ],
+          "skipped_characters": [],
+          "size": {
+            "width": 2700,
+            "height": 640
+          },
+          "seed": 3994884656,
+          "file": "residual-04.png"
+        },
+        {
+          "text": "RESIDUAL",
+          "score": 0.6646,
+          "avg_letter_score": 0.5637,
+          "density_ratio": 0.72,
+          "selected_variants": [
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/R/R-23.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/E/E-17.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/S/S-09.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/I/I-10.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/D/D-15.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/U/U-01.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-25.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/L/L-10.png"
+          ],
+          "skipped_characters": [],
+          "size": {
+            "width": 2700,
+            "height": 640
+          },
+          "seed": 3994860935,
+          "file": "residual-01.png"
+        }
+      ]
+    },
+    {
+      "slug": "first-day",
+      "text": "FIRST DAY",
+      "final_file": "first-day.png",
+      "final_source_option": "first-day-01.png",
+      "final_score": 0.7514,
+      "variants": [
+        {
+          "text": "FIRST DAY",
+          "score": 0.7514,
+          "avg_letter_score": 0.6704,
+          "density_ratio": 0.8265,
+          "selected_variants": [
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/F/F-05.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/I/I-25.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/R/R-15.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/S/S-12.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/T/T-20.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/D/D-22.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-04.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/Y/Y-18.png"
+          ],
+          "skipped_characters": [],
+          "size": {
+            "width": 2600,
+            "height": 620
+          },
+          "seed": 894294995,
+          "file": "first-day-01.png"
+        },
+        {
+          "text": "FIRST DAY",
+          "score": 0.7467,
+          "avg_letter_score": 0.6339,
+          "density_ratio": 0.8654,
+          "selected_variants": [
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/F/F-09.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/I/I-02.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/R/R-01.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/S/S-23.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/T/T-10.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/D/D-27.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-01.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/Y/Y-28.png"
+          ],
+          "skipped_characters": [],
+          "size": {
+            "width": 2600,
+            "height": 620
+          },
+          "seed": 894302902,
+          "file": "first-day-02.png"
+        },
+        {
+          "text": "FIRST DAY",
+          "score": 0.7044,
+          "avg_letter_score": 0.6045,
+          "density_ratio": 0.8881,
+          "selected_variants": [
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/F/F-01.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/I/I-05.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/R/R-08.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/S/S-24.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/T/T-25.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/D/D-08.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-25.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/Y/Y-20.png"
+          ],
+          "skipped_characters": [],
+          "size": {
+            "width": 2600,
+            "height": 620
+          },
+          "seed": 894310809,
+          "file": "first-day-03.png"
+        },
+        {
+          "text": "FIRST DAY",
+          "score": 0.6892,
+          "avg_letter_score": 0.6213,
+          "density_ratio": 0.9969,
+          "selected_variants": [
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/F/F-16.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/I/I-18.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/R/R-29.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/S/S-24.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/T/T-09.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/D/D-03.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-03.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/Y/Y-02.png"
+          ],
+          "skipped_characters": [],
+          "size": {
+            "width": 2600,
+            "height": 620
+          },
+          "seed": 894318716,
+          "file": "first-day-04.png"
+        }
+      ]
+    },
+    {
+      "slug": "catalog",
+      "text": "CATALOG",
+      "final_file": "catalog.png",
+      "final_source_option": "catalog-01.png",
+      "final_score": 0.7731,
+      "variants": [
+        {
+          "text": "CATALOG",
+          "score": 0.7731,
+          "avg_letter_score": 0.6607,
+          "density_ratio": 0.7954,
+          "selected_variants": [
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/C/C-07.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-03.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/T/T-28.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-08.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/L/L-20.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/O/O-27.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/G/G-13.png"
+          ],
+          "skipped_characters": [],
+          "size": {
+            "width": 2400,
+            "height": 600
+          },
+          "seed": 1125114049,
+          "file": "catalog-01.png"
+        },
+        {
+          "text": "CATALOG",
+          "score": 0.7431,
+          "avg_letter_score": 0.6126,
+          "density_ratio": 0.7883,
+          "selected_variants": [
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/C/C-12.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-24.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/T/T-15.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-14.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/L/L-20.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/O/O-17.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/G/G-26.png"
+          ],
+          "skipped_characters": [],
+          "size": {
+            "width": 2400,
+            "height": 600
+          },
+          "seed": 1125137770,
+          "file": "catalog-04.png"
+        },
+        {
+          "text": "CATALOG",
+          "score": 0.7248,
+          "avg_letter_score": 0.6097,
+          "density_ratio": 0.7608,
+          "selected_variants": [
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/C/C-09.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-20.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/T/T-03.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-16.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/L/L-28.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/O/O-14.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/G/G-12.png"
+          ],
+          "skipped_characters": [],
+          "size": {
+            "width": 2400,
+            "height": 600
+          },
+          "seed": 1125129863,
+          "file": "catalog-03.png"
+        },
+        {
+          "text": "CATALOG",
+          "score": 0.7206,
+          "avg_letter_score": 0.6575,
+          "density_ratio": 0.6933,
+          "selected_variants": [
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/C/C-09.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-19.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/T/T-25.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/A/A-29.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/L/L-28.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_N-Z/O/O-10.png",
+            "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/G/G-28.png"
+          ],
+          "skipped_characters": [],
+          "size": {
+            "width": 2400,
+            "height": 600
+          },
+          "seed": 1125121956,
+          "file": "catalog-02.png"
+        }
+      ]
+    }
+  ]
+}
