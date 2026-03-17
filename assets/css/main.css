@@ -1518,10 +1518,12 @@ body.dark-mode .pr-size-table-wrap {
   display: grid;
   gap: 8px;
   align-content: start;
+  color: var(--pr-text);
 }
 
 .pr-editorial-poster__specs .t-label {
   display: block;
+  color: rgba(17,17,17,.78);
 }
 
 .pr-editorial-panel {
@@ -1588,16 +1590,17 @@ body.dark-mode .pr-size-table-wrap {
 .pr-print-specs__list li {
   font-size: clamp(13px, 1vw, 15px);
   font-family: var(--font-body);
-  color: var(--pr-muted);
+  color: rgba(17,17,17,.82);
   padding-left: 1em;
   position: relative;
+  text-wrap: balance;
 }
 
 .pr-print-specs__list li::before {
   content: '—';
   position: absolute;
   left: 0;
-  color: rgba(17,17,17,.3);
+  color: rgba(17,17,17,.5);
 }
 
 /* ============================================================
@@ -2440,6 +2443,22 @@ body.dark-mode .pr-btn {
 
 body.dark-mode .pr-btn:hover {
   background: rgba(255,255,255,.08);
+}
+
+body.dark-mode .pr-editorial-poster__specs {
+  color: var(--pr-text);
+}
+
+body.dark-mode .pr-editorial-poster__specs .t-label {
+  color: rgba(230,226,216,.82);
+}
+
+body.dark-mode .pr-print-specs__list li {
+  color: rgba(230,226,216,.82);
+}
+
+body.dark-mode .pr-print-specs__list li::before {
+  color: rgba(230,226,216,.55);
 }
 
 body.dark-mode .pr-site-lower {
