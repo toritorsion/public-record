@@ -2334,47 +2334,47 @@ body.dark-mode .pr-nav__links .pr-nav__sep {
    FOOTER / EMAIL DARK COLORWAY
    ============================================================ */
 .pr-site-lower {
-  background: var(--pr-bg);
-  color: var(--pr-text);
-  border-top: 1px solid var(--pr-rule);
+  background: #1e1c18;
+  color: #e8e4dc;
+  border-top: 1px solid rgba(232,228,220,.14);
 }
 
 .pr-site-lower .pr-email-heading,
 .pr-site-lower .pr-footer__pub {
-  color: var(--pr-text);
+  color: #e8e4dc;
 }
 
 .pr-site-lower .pr-footer__heading,
 .pr-site-lower .pr-footer__cta {
-  color: var(--pr-text);
+  color: #e8e4dc;
 }
 
 .pr-site-lower .t-caption,
 .pr-site-lower .t-label,
 .pr-site-lower .t-body,
 .pr-site-lower p {
-  color: var(--pr-muted);
+  color: rgba(232,228,220,.6);
 }
 
 .pr-site-lower .pr-footer__text,
 .pr-site-lower .pr-footer__bottom-copy {
-  color: var(--pr-muted);
+  color: rgba(232,228,220,.62);
 }
 
 .pr-site-lower .pr-rule {
-  background: var(--pr-rule);
+  background: rgba(232,228,220,.14);
 }
 
 .pr-site-lower a {
-  color: var(--pr-text);
+  color: #e8e4dc;
 }
 
 .pr-site-lower .pr-footer__brand-logo {
-  filter: invert(1);
+  filter: none;
 }
 
 .pr-site-lower .pr-footer__bottom {
-  border-top-color: var(--pr-rule);
+  border-top-color: rgba(232,228,220,.18);
 }
 
 .pr-site-lower a:hover {
@@ -2382,27 +2382,27 @@ body.dark-mode .pr-nav__links .pr-nav__sep {
 }
 
 .pr-site-lower .pr-email-form__input {
-  background: transparent;
-  border-color: var(--pr-rule);
-  color: var(--pr-text);
+  background: rgba(255,255,255,.07);
+  border-color: rgba(232,228,220,.25);
+  color: #e8e4dc;
 }
 
 .pr-site-lower .pr-email-form__input::placeholder {
-  color: var(--pr-muted);
+  color: rgba(232,228,220,.4);
 }
 
 .pr-site-lower .pr-email-form__input:focus {
-  border-color: var(--pr-text);
+  border-color: #e8e4dc;
 }
 
 .pr-site-lower .pr-btn {
-  border-color: var(--pr-rule);
-  color: var(--pr-text);
+  border-color: rgba(232,228,220,.4);
+  color: #e8e4dc;
 }
 
 .pr-site-lower .pr-btn:hover {
-  background: var(--pr-text);
-  color: var(--pr-bg);
+  background: rgba(255,255,255,.1);
+  color: #e8e4dc;
 }
 
 /* ============================================================
@@ -2443,62 +2443,63 @@ body.dark-mode .pr-btn:hover {
 }
 
 body.dark-mode .pr-site-lower {
-  background: var(--pr-bg);
-  color: var(--pr-text);
+  background: #f6f3ed;
+  color: #111;
+  border-top: 1px solid rgba(0,0,0,.88);
 }
 
 body.dark-mode .pr-site-lower .pr-email-heading,
 body.dark-mode .pr-site-lower .pr-footer__pub {
-  color: var(--pr-text);
+  color: #111;
 }
 
 body.dark-mode .pr-site-lower .pr-footer__heading,
 body.dark-mode .pr-site-lower .pr-footer__cta {
-  color: var(--pr-text);
+  color: #111;
 }
 
 body.dark-mode .pr-site-lower .t-caption,
 body.dark-mode .pr-site-lower .t-label,
 body.dark-mode .pr-site-lower .t-body,
 body.dark-mode .pr-site-lower p {
-  color: var(--pr-muted);
+  color: rgba(17,17,17,.68);
 }
 
 body.dark-mode .pr-site-lower .pr-footer__text,
 body.dark-mode .pr-site-lower .pr-footer__bottom-copy {
-  color: var(--pr-muted);
+  color: rgba(17,17,17,.68);
 }
 
 body.dark-mode .pr-site-lower a {
-  color: var(--pr-text);
+  color: #111;
 }
 
 body.dark-mode .pr-site-lower .pr-footer__brand-logo {
-  filter: none;
+  filter: invert(1);
 }
 
 body.dark-mode .pr-site-lower .pr-email-form__input {
-  color: var(--pr-text);
+  color: #111;
   background: transparent;
-  border-color: var(--pr-rule);
+  border-color: rgba(0,0,0,.88);
 }
 
 body.dark-mode .pr-site-lower .pr-email-form__input::placeholder {
-  color: var(--pr-muted);
+  color: rgba(17,17,17,.52);
 }
 
 body.dark-mode .pr-site-lower .pr-email-form__input:focus {
-  border-color: var(--pr-text);
+  border-color: #111;
 }
 
 body.dark-mode .pr-site-lower .pr-btn {
-  color: var(--pr-text);
-  border-color: var(--pr-rule);
+  color: #111;
+  border-color: rgba(0,0,0,.88);
 }
 
 body.dark-mode .pr-site-lower .pr-btn:hover {
-  background: var(--pr-text);
-  color: var(--pr-bg);
+  background: #111;
+  color: #f6f3ed;
 }
 
 /* Texture stays but lightens in dark mode */
