@@ -218,6 +218,36 @@
     }
   }
 
+  // --- Lower site section: keep newsletter + footer structure consistent sitewide ---
+  function ensureSiteLower() {
+    var footer = document.querySelector('.pr-footer');
+    if (!footer || footer.closest('.pr-site-lower')) return;
+
+    var wrapper = document.createElement('div');
+    wrapper.className = 'pr-site-lower';
+    wrapper.innerHTML = '' +
+      '<section class="pr-section--sm">' +
+        '<div class="pr-container">' +
+          '<div class="pr-spread">' +
+            '<div>' +
+              '<div class="pr-email-heading">Stay in the Record</div>' +
+            '</div>' +
+            '<div>' +
+              '<p class="u-mb-gap">New work, print releases, and what comes next &mdash; from Chicago, when it matters.</p>' +
+              '<form action="https://buttondown.com/toritorsion/embed" method="post" target="popupwindow" onsubmit="window.open(\'https://buttondown.com/toritorsion\', \'popupwindow\')" class="pr-email-form" aria-label="Subscribe form">' +
+                '<input type="email" name="email" class="pr-email-form__input" placeholder="your@email.com" required>' +
+                '<input type="hidden" value="1" name="embed">' +
+                '<button class="pr-btn" type="submit">Subscribe</button>' +
+              '</form>' +
+            '</div>' +
+          '</div>' +
+        '</div>' +
+      '</section>';
+
+    footer.parentNode.insertBefore(wrapper, footer);
+    wrapper.appendChild(footer);
+  }
+
   // --- Footer: standardize core essentials sitewide ---
   function enhanceFooter() {
     var footer = document.querySelector('.pr-footer');
@@ -295,6 +325,7 @@
     setupDropdowns();
     randomizeGallery();
     setupLightbox();
+    ensureSiteLower();
     enhanceFooter();
   }
 

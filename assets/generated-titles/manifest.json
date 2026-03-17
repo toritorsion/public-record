@@ -108,13 +108,13 @@
       "text": "FIRST DAY",
       "final_file": "first-day.png",
       "final_source_option": "first-day-01.png",
-      "final_score": 0.7514,
+      "final_score": 0.7558,
       "variants": [
         {
           "text": "FIRST DAY",
-          "score": 0.7514,
+          "score": 0.7558,
           "avg_letter_score": 0.6704,
-          "density_ratio": 0.8265,
+          "density_ratio": 0.8388,
           "selected_variants": [
             "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/F/F-05.png",
             "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/I/I-25.png",
@@ -135,9 +135,9 @@
         },
         {
           "text": "FIRST DAY",
-          "score": 0.7467,
+          "score": 0.7423,
           "avg_letter_score": 0.6339,
-          "density_ratio": 0.8654,
+          "density_ratio": 0.8777,
           "selected_variants": [
             "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/F/F-09.png",
             "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/I/I-02.png",
@@ -158,9 +158,9 @@
         },
         {
           "text": "FIRST DAY",
-          "score": 0.7044,
+          "score": 0.7,
           "avg_letter_score": 0.6045,
-          "density_ratio": 0.8881,
+          "density_ratio": 0.9004,
           "selected_variants": [
             "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/F/F-01.png",
             "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/I/I-05.png",
@@ -181,9 +181,9 @@
         },
         {
           "text": "FIRST DAY",
-          "score": 0.6892,
+          "score": 0.6881,
           "avg_letter_score": 0.6213,
-          "density_ratio": 0.9969,
+          "density_ratio": 1.0,
           "selected_variants": [
             "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/F/F-16.png",
             "PUBLIC_RECORD_WE_WERE_THERE_SITE_ASSETS/11_DESIGN ELEMENTS/1RANSOM LETTERS/PNG Letter_A-M/I/I-18.png",
@@ -196,7 +196,7 @@
           ],
           "skipped_characters": [],
           "size": {
-            "width": 2600,
+            "width": 2624,
             "height": 620
           },
           "seed": 894318716,

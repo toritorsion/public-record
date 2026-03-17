@@ -60,6 +60,7 @@ STYLE_PRESETS = {
         "space_factor": 0.35,
         "tracking_factor": 0.030,
         "tracking_jitter": 0.020,
+        "pair_tracking": {"FI": 0.100},
         "scale_jitter": 0.050,
         "rotate_max": 1.9,
         "y_jitter": 0.050,
@@ -282,6 +283,10 @@ def compose_word_image(
     space_w = int(base_h * float(style["space_factor"]))
     tracking = base_h * float(style["tracking_factor"])
     tracking_jitter = base_h * float(style["tracking_jitter"])
+    pair_tracking = {
+        pair.upper(): base_h * float(amount)
+        for pair, amount in style.get("pair_tracking", {}).items()
+    }
     scale_jitter = float(style["scale_jitter"])
     rotate_max = float(style["rotate_max"])
     y_jitter = base_h * float(style["y_jitter"])
@@ -294,7 +299,7 @@ def compose_word_image(
     rotations: List[float] = []
     skipped_chars: List[str] = []
 
-    for char in text_up:
+    for index, char in enumerate(text_up):
         if char == " ":
             cursor_x += space_w
             continue
@@ -329,6 +334,9 @@ def compose_word_image(
         rotations.append(abs(rotation))
 
         letter_spacing = int(tracking + rng.uniform(-tracking_jitter, tracking_jitter))
+        next_char = text_up[index + 1] if index + 1 < len(text_up) else ""
+        pair_key = f"{char}{next_char}"
+        letter_spacing += int(pair_tracking.get(pair_key, 0))
         min_spacing = -int(base_h * 0.04)
         cursor_x += glyph.width + max(min_spacing, letter_spacing)
 
