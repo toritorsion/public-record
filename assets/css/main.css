@@ -94,7 +94,7 @@ body::before {
   font-weight: 400;
   line-height: .78;
   text-transform: uppercase;
-  letter-spacing: -.045em;
+  letter-spacing: 0;
   margin: 0;
   text-wrap: balance;
 }
@@ -429,7 +429,7 @@ em { font-style: italic; }
   margin-left: auto;
   margin-right: auto;
   line-height: 0.88;
-  letter-spacing: -0.045em;
+  letter-spacing: 0;
   font-size: clamp(72px, 10vw, 146px);
 }
 
@@ -496,7 +496,7 @@ em { font-style: italic; }
 .page-masthead__center-title {
   font-size: clamp(40px, 5vw, 72px);
   line-height: 0.95;
-  letter-spacing: -0.03em;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 
@@ -578,6 +578,7 @@ em { font-style: italic; }
 
 .page-masthead__secondary--madhoney {
   font-family: var(--font-title-main);
+  letter-spacing: 0;
   color: #111;
 }
 
@@ -665,7 +666,7 @@ em { font-style: italic; }
   .page-masthead__headline {
     font-size: clamp(46px, 13vw, 74px);
     max-width: 10ch;
-    letter-spacing: -0.05em;
+    letter-spacing: 0;
   }
 
   .page-masthead__dek {
@@ -1244,7 +1245,7 @@ body.dark-mode .page-masthead__secondary--madhoney {
   margin: 0;
   font-family: var(--font-title-main);
   text-transform: uppercase;
-  letter-spacing: -0.045em;
+  letter-spacing: 0;
   color: var(--pr-text);
   -webkit-text-stroke: 5px var(--pr-bg);
   paint-order: stroke fill;
@@ -1411,7 +1412,7 @@ body.dark-mode .pr-size-table-wrap {
   line-height: .88;
   font-family: var(--font-title-main);
   text-transform: uppercase;
-  letter-spacing: -0.04em;
+  letter-spacing: 0;
   color: var(--pr-text);
   -webkit-text-stroke: 4px var(--pr-bg);
   paint-order: stroke fill;
